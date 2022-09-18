@@ -1,17 +1,46 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Análisis, diseño y arquitectura de <em>software</em>',
+    descripcionCurso:
+      'En este componente formativo se tratarán los temas de metodologías de desarrollo de <em>software</em> tradicional, ágil y elementos de estructura arquitectónica.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-6.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-7'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-7.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-8'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-8.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-9'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-9.png'),
       },
     ],
   },
@@ -32,30 +61,29 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Metodologías de desarrollo de <em>software</em> tradicionales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Metodologías de desarrollo de <em>software</em> ágiles',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Elementos del modelo objetos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Elementos de la estructura arquitectónica',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +129,82 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Elementos de la estructura arquitectónica',
+      referencia:
+        'Lucid Software Español. (2019). <em>Tutorial – Diagrama de Clases UML</em> (video). YouTube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Z0yLerU0g-Q',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'API',
+      significado: 'interfaz de programación de aplicaciones.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Atributo',
+      significado: 'característica relevante de un objeto.',
+    },
+    {
+      termino: 'Clase',
+      significado:
+        'entidad principal del mundo real que agrupa varios objetos con atributos en común y métodos en común.',
+    },
+    {
+      termino: 'Método',
+      significado:
+        'es una función de código que realiza un comportamiento especifico de un objeto.',
+    },
+    {
+      termino: 'Objeto',
+      significado:
+        'entidad del mundo real que representa la instancia de una clase.',
+    },
+    {
+      termino: 'Parámetro',
+      significado: 'especifica el tipo de dato que recibirá un método.',
+    },
+    { termino: 'UML', significado: 'lenguaje unificado de modelado.' },
+    {
+      termino: 'Visibilidad',
+      significado:
+        'valor que tendrá un atributo para conocer quién puede alcanzarlo en el sistema.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Agilemanifesto.org. (s.f.). Manifiesto por el Desarrollo Ágil de Software.',
+      link: 'https://agilemanifesto.org/iso/es/manifesto.html',
+    },
+
+    {
+      referencia:
+        'Carrizo, D., & Alfaro, A. (2018). Método de aseguramiento de la calidad en una metodología de desarrollo de software: un enfoque práctico. Ingeniare. Revista chilena de ingeniería, 26(1), 114-129.',
+    },
+    {
+      referencia:
+        'Guedes, G. T. (2018). UML 2-Uma abordagem prática. Novatec Editora.',
+    },
+    {
+      referencia:
+        'Jabangwe, R., Edison, H., & Duc, A. N. (2018). Software engineering process models for mobile app development: A systematic literature review. Journal of Systems and Software, 145, 98-111.',
+    },
+    {
+      referencia:
+        'Montero, B. M., Cevallos, H. V., & Cuesta, J. D. (2018). Metodologías ágiles frente a las tradicionales en el proceso de desarrollo de software. Espirales revista multidisciplinaria de investigación, 2(17), 114-121.',
+    },
+    {
+      referencia:
+        'Silva, A., Ledezma, E., Castorena, J., Domínguez, A., & Riojas, A. (2018). Utilidad del Lenguaje Unificado de Modelado (UML) en el desarrollo de software profesional dentro del sector empresarial y educativo. Ciencia Cierta revista de divulgación científica, 56.',
+    },
+    {
+      referencia:
+        'Velásquez, S. M., Montoya, J. D. V., Adasme, M. E. G., Zapata, E. J. R., Pino, A. A., & Marín, S. L. (2019). Una revisión comparativa de la literatura acerca de metodologías tradicionales y modernas de desarrollo de software. Revista Cintex, 24(2), 13-23.',
+    },
+    {
+      referencia:
+        'Zumba, J. (2018). Evolución de las Metodologías y Modelos utilizados en el Desarrollo de Software. INNOVA Research Journal, Vol 3, No. 10, 20-33.',
     },
   ],
   creditos: {

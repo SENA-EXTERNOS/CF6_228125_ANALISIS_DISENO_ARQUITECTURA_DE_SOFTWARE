@@ -1,15 +1,58 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 1.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 23%
+    right: 82%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 9%
+    right: 21%
+  &-3
+    //animation: rotate 8s linear infinite
+    position: absolute
+    top: 33%
+    right: 93% 
+  &-4
+    animation: rotate 8s linear infinite
+    position: absolute
+    top: 40%
+    right: 29% 
+    height: 7%;
+    width: 8%;
+  &-5
+    //animation: rotate 8s linear infinite
+    position: absolute
+    top: 48%
+    right: 90% 
+  &-6
+    animation: float1 5.8s ease-in-out infinite alternate
+    position: absolute
+    top: 56%
+    right: 77% 
+  &-7
+    //animation: float1 5.8s ease-in-out infinite alternate
+    position: absolute
+    top: 13%
+    right: 11% 
+  &-8
+    //animation: float1 5.8s ease-in-out infinite alternate
+    position: absolute
+    top: 5%
+    right: 44% 
+  &-9
+    //animation: float1 5.8s ease-in-out infinite alternate
+    position: absolute
+    top: 46%
+    right: 38% 
 
+@keyframes rotate 
+  0%
+    transform: rotate(0)
+
+  100%
+    transform: rotate(360deg)
 
 @keyframes float1
   0%
@@ -17,3 +60,226 @@
 
   100%
     transform: translateY(0px)
+
+.titulo-principal.color-acento-contenido span
+  color: white !important; 
+
+.img-a 
+  display: block 
+  margin: auto   
+  width: auto
+  height: auto
+
+.fondo-1
+  background-image: url('../assets/curso/temas/tema_1/img_3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-inline: -3.2rem 
+  padding-left: 2.5rem;
+  padding-right: 3rem;
+
+.fondo-1_img
+  margin-right: -300px
+  
+.play_1
+  color: #0B5999
+
+.play_3
+  color: #1ECBA9
+
+.text_span
+  font-size:  20px;
+  font-weight: bold;
+  margin: 5px;
+  
+.pasos-a.color-primario .pasos-a__circle div
+  color: white;
+
+.text-end 
+  text-align: left !important;
+
+@media only screen and (max-width: 992px)
+  .m-left
+    left: 0 !important  
+
+.m-left
+  left: 50% !important
+
+.txt-g
+  justify-content: flex-start !important
+
+.bloque-g-txt
+  justify-content: flex-end !important  
+  position: relative;
+  width: 100%;
+  margin-right: 367px;
+
+.fondo-2
+  background-image: url('../assets/curso/temas/tema_1/img_13.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-inline: -3.2rem 
+  padding-left: 2.5rem;
+  padding-right: 3rem;
+
+.fondo-2_img
+  margin-right: -10px
+
+.bloque-texto-b.color-acento-contenido:before 
+  background-color: #FFF2CA;
+
+.bg_1 
+  background-color: #C7F2EB;  
+
+.bg_2
+  background-color: #0B5999;
+  margin-inline: -3.2rem 
+  padding: 5px
+
+.bg_2 p
+  color: white;
+  width: 90%
+  flex-direction: row
+  justify-content: center;
+  display: flex
+  padding: 5px 5px 5px 5px 
+
+.bg_3
+  background-color: #F3F9FF;
+  margin-inline: -3.0rem 
+
+.bg_3_1
+  background-color: #F3F9FF;
+
+.bg_4
+  background-color: #21CBAE;
+  margin-inline: -3.2rem 
+  padding: 5px
+
+.bg_4_1
+  background-color: #21CBAE;
+  padding: 5px
+
+.bg_5
+  background-color: #0B5999;
+  padding: 5px
+
+.mgr_left
+  margin-left: -6.5rem;
+  margin-top: 30px;
+
+.bg_5 p
+  color: white;
+
+.img-b
+  height: 261px;
+  width: 352px;
+
+
+
+.cajon.color-primario 
+  background-color: #FBCEDD
+
+
+.linea-tiempo-d.color-acento-contenido.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number
+      background-color: $color-acento-contenido
+      color: $color-sistema-texto
+    .linea-tiempo-d__item__content
+      background-color: #FFF2CA
+      color: #000
+
+
+.linea-tiempo-d__item__content__title:hover 
+  font-weight: 700
+  background-color: #FFF2CA
+
+.bloque-texto-e.color-secundario
+  background-color: #EFFAF7;
+
+.bloque-texto-e i
+  color: #61C8AF
+
+.lista-ul--color li > i:first-of-type
+  color: #EF3C79
+
+.tam_i
+  font-size: 1.0em !important
+
+.cont_bg-1
+  background-color: #F4F6FA
+  margin-inline: -3.2rem 
+
+.cont_bg-2
+  background-color: #21CBAE
+  margin-top: -135px
+
+.tarj_bg-1
+  background-color: #FFF7DF
+  color: #12263F
+  align-items: stretch
+  display: flex
+  flex-direction: column
+
+.tarj_bg-2
+  background-color: #B5F5EA
+
+.tarj_bg-3
+  background-color: #D7F1EB;
+
+.slyder-f__btn
+  color: #61C8AF
+
+.bloque-texto-b.color-acento-botones:before 
+  background-color: #D7F1EB;
+  top: 77%;
+
+.tabs-a__tab__text
+  font-size: 14px;
+
+.cuadro_bloc
+  margin-right: 444px;
+  margin-left: -29px;
+  font-size: 14px
+
+.tarjeta-flip.color-primario .tarjeta-flip__img
+  background-color: #FDFDFD
+  box-shadow: none;
+
+.tarjeta-flip.color-primario .tarjeta-flip__contenido
+  background-color: #84ABCB;
+
+.bg_6
+  background-color: #FFFCF5;
+  margin-inline: -3.2rem 
+  padding: 5px
+  
+
+.img-c
+  height: 255px;
+
+.img-d
+  margin-inline: 1.0rem
+
+.rec_bg-1
+  background: linear-gradient(0deg, rgba(15,39,113,1) 48%, rgba(71,160,230,1) 100%);
+
+.boton.color-acento-botones *, .color-acento-botones.boton--sm * 
+  color: #12263F;
+
+.color_txt
+  color: #DC4C79;
+  font-weight: bold;
+
+.acordion__accion__btn--a i, .acordion__accion__btn--b i
+  color: #21CBAE;
+
+.tarjeta--azul
+  background-color: #D7F1EB;
+
+.acor_1
+  background-color: #F6F6F6;
+
+.horizontal-scroll
+  align-items: stretch!important
