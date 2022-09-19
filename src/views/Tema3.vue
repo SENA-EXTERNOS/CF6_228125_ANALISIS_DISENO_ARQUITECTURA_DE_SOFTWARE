@@ -9,12 +9,11 @@
 
     .row.align-items-stretch.justify-content-center.d-flex(data-aos="flip-down")
       .col-lg-8.d-flex
-        .row.align-items-center.d-flex
+        .row
           .col-lg-12
-            .bg_2.p-5
+            .bg_5.p-5
               p Cuando se habla del modelo de objetos se hace referencia a los modelos del paradigma de programación orientado a objetos; es decir, los conceptos, sintaxis, fundamentos y pilares que lo componen.
-
-              p El paradigma de programación orientado a objetos es un estándar en la industria del <em>software</em> y es implementado en diferentes lenguajes de programación como Java, Net, PHP, C#, entre otros. La programación orientada a objetos se centra en las clases y en los objetos como su core de programación.
+              p El paradigma de programación orientado a objetos es un estándar en la industria del #[em software] y es implementado en diferentes lenguajes de programación como Java, Net, PHP, C#, entre otros. La programación orientada a objetos se centra en las clases y en los objetos como su core de programación.
       .col-lg-3.d-flex
         .bg_3.p-4
           img.img-c(src='@/assets/curso/temas/tema_3/img_1.png', alt='Texto que describa la imagen')
