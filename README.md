@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Análisis, diseño y arquitectura de software**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF6_228125_ANALISIS_DISENO_ARQUITECTURA_DE_SOFTWARE/](https://sena-externos.github.io/CF6_228125_ANALISIS_DISENO_ARQUITECTURA_DE_SOFTWARE/)
 
 #
 
