@@ -192,10 +192,10 @@
 
     .row.align-items-stretch.justify-content-center.d-flex.mb-5(data-aos="zoom-in-left")
       .col-lg-8.d-flex
-        .row.align-items-center.d-flex
+        .row.align-items-center
           .col-lg-12
             .bg_2.p-5
-              p La metodología o modelo en espiral es un enfoque de desarrollo de <em>software</em> que surgió como respuesta a los inconvenientes presentados por el modelo cascada. El espiral basa todas sus fases, como se ve en el gráfico, a través de espirales que se van repitiendo hasta entregar un producto final.
+              P La metodología o modelo en espiral es un enfoque de desarrollo de <em>software</em> que surgió como respuesta a los inconvenientes presentados por el modelo cascada. El espiral basa todas sus fases, como se ve en el gráfico, a través de espirales que se van repitiendo hasta entregar un producto final.
 
               p Este modelo es global y se usa junto con otros modelos de desarrollo de <em>software</em> tanto tradicionales como ágiles.
       .col-lg-4.d-flex

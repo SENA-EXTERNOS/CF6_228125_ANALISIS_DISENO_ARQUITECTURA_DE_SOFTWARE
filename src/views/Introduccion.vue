@@ -10,7 +10,9 @@
       h1 Introducción
 
 
-    p.mb-5(data-aos="zoom-in-down") Bienvenido a este componente formativo, donde el contenido a estudiar es muy importante para gestar las buenas prácticas de diseño de un producto <em>software</em>; por eso, se le invita a revisar ―antes de empezar― el video de introducción, así tendrá más claridad sobre la temática que estudiará. 
+    p(data-aos="zoom-in-down") Apreciado aprendiz, bienvenido a este componente formativo, donde el contenido a estudiar es muy importante para gestar las buenas prácticas de diseño de un producto software. 
+
+    p.mb-5(data-aos="zoom-in-down") En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo. 
 
     figure.mb-5(data-aos="zoom-in-down")
       .video

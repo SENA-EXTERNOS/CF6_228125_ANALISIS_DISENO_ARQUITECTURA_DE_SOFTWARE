@@ -404,14 +404,16 @@
       .col-lg-5.mb-5.mb-md-0
         img.img-a(src='@/assets/curso/temas/tema_4/img_12.png', alt='Texto que describa la imagen')
 
-    .row.justify-content-center(data-aos="flip-down")
+    .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         .cajon.color-acento-botones.p-4
           p Los diagramas UML se caracterizan porque permiten una comunicación fluida con el cliente, comunican visualmente las ideas y, sobre todo, son precisos y eliminan la ambigüedad.
 
           p.mb-0 Existen diagramas que modelan la estructura y otros que modelan el comportamiento del <em>software</em>. A través de este modelamiento se comunican las ideas de forma certera; el cliente aprueba y se puede avanzar de forma correcta en el proyecto.
 
-
+    .bg_7.p-5
+      .bg_8.p-4
+        h6 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 </template>
 
 <script>
