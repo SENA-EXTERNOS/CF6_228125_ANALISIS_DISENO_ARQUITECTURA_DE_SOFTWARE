@@ -53,7 +53,7 @@
             |, la entidad vehículo se puede describir con los atributos marca, modelo, color, placa, número de pasajeros, etc. 
 
           div(titulo="Cardinalidad")
-            p Esta cardinalidad dentro del modelo se representa en los extremos de cada relación. La cardinalidad expresa cuántas entidades de un extremo de la relación están relacionadas con cuántas entidades del otro extremo. Pueden ser “uno a uno”’, “uno a varios”’ o “varios a varios”. 
+            p Esta cardinalidad dentro del modelo se representa en los extremos de cada relación. La cardinalidad expresa cuántas entidades de un extremo de la relación están relacionadas con cuántas entidades del otro extremo. Pueden ser “uno a uno”, “uno a varios” o “varios a varios”. 
 
           div(titulo="Clave en una entidad")
             p Dentro del modelo entidad / relación están representadas:
@@ -85,7 +85,7 @@
 
       .titulo-sexto.color-acento-contenido(data-aos="flip-down")
         h5 Figura 6. 
-        | Modelo de una clase
+        | #[i Modelo de una clase]
 
       .row.justify-content-center.mb-5(data-aos="flip-down")
         .col-lg-5.mb-5.mb-md-0
@@ -125,27 +125,27 @@
           ul.lista-ul--color.lista-ul--separador
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Identifique todas las clases que participan en la solución del <em>software</em>
+              | Identifique todas las clases que participan en la solución del #[.mar #[i software.]]
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Dibújelas en un diagrama de clases
+              | Dibújelas en un diagrama de clases.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Identifique los atributos provenientes de los conceptos asociados del modelo conceptual
+              | Identifique los atributos provenientes de los conceptos asociados del modelo conceptual.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Agregue los nombres de los métodos
+              | Agregue los nombres de los métodos.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Incorpore la información sobre los tipos a los atributos y los métodos
+              | Incorpore la información sobre los tipos a los atributos y los métodos.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Agregue las asociaciones necesarias para dar soporte a la visibilidad requerida de los atributos
+              | Agregue las asociaciones necesarias para dar soporte a la visibilidad requerida de los atributos.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
@@ -171,7 +171,7 @@
             br
             br
             span.color_txt Tipo: 
-            | puede llegar a depender del lenguaje de programación a utilizar (public, protected, private).
+            | puede llegar a depender del lenguaje de programación a utilizar (#[i public, protected, private]).
 
             br
             br
@@ -230,8 +230,8 @@
             | es el más fuerte. Esta parte es totalmente invisible desde fuera de la clase.
             br
             br
-            span.color_txt (~) Package: 
-            | solo es visible dentro del mismo package.
+            span.color_txt (~) #[i Package]: 
+            | solo es visible dentro del mismo #[i package].
             br
             br
             span.color_txt (#) Los atributos / 
@@ -250,7 +250,7 @@
             ul.lista-ul--color
               li
                 i.fas.fa-play.m-2.tam_i.my-0
-                | Tipo retornado	: puede llegar a depender del lenguaje de programación a utilizar.
+                | Tipo retornado: puede llegar a depender del lenguaje de programación a utilizar.
               li
                 i.fas.fa-play.m-2.tam_i.my-0
                 | Parámetros: especificación del tipo de datos y la información que determina el funcionamiento de la clase.
@@ -348,7 +348,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Figura 7. 
-          | Ejemplo diagrama de componentes de correo electrónico
+          | #[i Ejemplo diagrama de componentes de correo electrónico]
 
     img.img-a.mb-3(data-aos="flip-down")(src='@/assets/curso/temas/tema_4/img_10.svg', alt='Texto que describa la imagen')
 
@@ -357,6 +357,7 @@
         figcaption 
           | Nota. Tomado y adaptado de IONOS (2020).
 
+    h4 API
     .row.mb-5.justify-content-center.align-items-stretch.d-flex(data-aos="flip-down")
       .col-lg-10.h-100.d-none.d-lg-block
         .row.align-items-stretch.justify-content-center.d-flex.mb-0.h-100
@@ -365,9 +366,9 @@
               img.img-a(src='@/assets/curso/temas/tema_4/img_11.png', alt='Texto que describa la imagen')
           .col-lg-6.d-flex.d-none.d-lg-block
             .bg_4.p-3.text-small
-              .bg_5.p-3.mb-3.mgr_left
+              .bg_5.p-3.mb-3.mgr_left-1
                 p.mb-0 Las API son componentes que permiten que dos <em>software</em> se comuniquen entre sí a través de un protocolo de comunicación; tiene diferentes definiciones y restricciones. Por ejemplo, un <em>software</em> puede crear una API para compartir la información de sus productos a otro servicio de <em>software</em> para su insumo y trabajo.
-              p.p-3.mb-0 Su sigla significa interfaz de programación de aplicaciones. En este caso la palabra aplicación hace referencia a cualquier sistema y la interfaz sería el protocolo de comunicación entre dos servicios de dos sistemas.
+              p.p-2.mb-0 Su sigla significa interfaz de programación de aplicaciones. En este caso la palabra aplicación hace referencia a cualquier sistema y la interfaz sería el protocolo de comunicación entre dos servicios de dos sistemas.
 
     
     .row.justify-content-center.d-block.d-lg-none.mb-5(data-aos="flip-down")

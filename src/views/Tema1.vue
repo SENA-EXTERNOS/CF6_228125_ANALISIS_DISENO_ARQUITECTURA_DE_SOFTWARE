@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema_1/img_1.png')})`}"
           )
           .bloque-texto-g__texto.p-4(data-aos="fade-down-left")
-            p.mb-0 Antes de hablar de metodologías de desarrollo de <em>software</em> tradicionales conozca qué es metodología. Una metodología es un marco de trabajo que se puede aplicar como guía para el desarrollo de las actividades que se van a llevar a cabo. Por tanto, una metodología de desarrollo de <em>software</em> especifica las tareas que se deben seguir, los artefactos que se tienen que construir y las relaciones de los objetos.
+            p.mb-0 Antes de hablar de metodologías de desarrollo de <em>software</em> tradicionales, conozca qué es metodología. Una metodología es un marco de trabajo que se puede aplicar como guía para el desarrollo de las actividades que se van a llevar a cabo. Por tanto, una metodología de desarrollo de <em>software</em> especifica las tareas que se deben seguir, los artefactos que se tienen que construir y las relaciones de los objetos.
 
     .row.mb-5.justify-content-evenly.align-items-center
       .col-lg-7(data-aos="flip-left")
@@ -50,7 +50,7 @@
           .col-lg-6.mb-5
             .titulo-sexto.color-acento-contenido
               h5 Figura 1. 
-              | Modelo de cascada
+              | #[i Modelo de cascada]
             .row.justify-content-center
               .col-lg-10
                 img.img-a(src='@/assets/curso/temas/tema_1/img_4.svg', alt='Texto que describa la imagen')
@@ -65,6 +65,7 @@
     PasosA.color-primario.mb-5(tipo="n")(data-aos="zoom-in-left")
       .row.align-items-center
         .col-md-7.mb-4.mb-md-0
+          h3 Definición del <em>software</em>
           p En esta fase se define el producto desde una visión a alto nivel con los diferentes aspectos importantes que se deben tener en cuenta.
         .col-md-5
           figure
@@ -138,7 +139,7 @@
           span.text_span Prototipado
 
       p El prototipado es una metodología de desarrollo iterativa en la cual se desarrolla una maqueta de la solución. Este prototipo se produce con el fin de mostrarle al cliente si se entendieron los requerimientos iniciales a alto nivel que se hicieron, y si van por buen camino, es decir, se hace el refinamiento junto al cliente.
-      p En este proceso, el cliente estará probando cada uno de los prototipos que se desarrollen desde el equipo de proyecto y emitirá su juicio valorativo, de acuerdo con él, el equipo desecha el prototipo la gran mayoría de veces, o lo termina para irlo evolucionando.
+      p En este proceso, el cliente estará probando cada uno de los prototipos que se desarrollen desde el equipo de proyecto y emitirá su juicio valorativo, de acuerdo con él, el equipo desecha el prototipo la gran mayoría de veces, o lo termina para evolucionando.
 
       p El objetivo principal en esta metodología es poder disminuir el riesgo asociado a los requerimientos y su falta de comprensión.
 
@@ -148,7 +149,7 @@
       .col-lg-6.mb-5
         .titulo-sexto.color-acento-contenido
           h5 Figura 2. 
-          | Modelo de prototipado
+          | #[i Modelo de prototipado]
         img.img-a(src='@/assets/curso/temas/tema_1/img_14.svg', alt='Texto que describa la imagen')
       .col-lg-5.mb-5
         .cajon.color-acento-botones.p-4.mb-4
@@ -183,7 +184,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-left")
       h5 Figura 3. 
-      | Modelo espiral
+      | #[i Modelo espiral]
     img.img-a.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/tema_1/img_16.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -217,13 +218,13 @@
         i.fas.fa-play.play_3.m-1
         span.text_span Incremental
 
-    p(data-aos="zoom-in-left") Esta metodología es otro modelo que tiene en cuenta la evolución del producto en el tiempo, iterando la funcionalidad del proyecto . La base fundamental de este modelo es el cascada que se irá iterando repetidamente e incrementando en cada iteración la funcionalidad del producto hasta completar así todos los requerimientos del proyecto.
+    p(data-aos="zoom-in-left") Esta metodología es otro modelo que tiene en cuenta la evolución del producto en el tiempo, iterando la funcionalidad del proyecto. La base fundamental de este modelo es el cascada que se irá iterando repetidamente e incrementando en cada iteración la funcionalidad del producto hasta completar así todos los requerimientos del proyecto.
 
     p.mb-5(data-aos="zoom-in-left") Es bueno recalcar que de esta metodología, en cada iteración, se obtiene un producto operacional y no un prototipo como en el modelo de prototipado. El siguiente gráfico presenta el esquema del modelo.
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-left")
       h5 Figura 4. 
-      | Modelo incremental
+      | #[i Modelo incremental]
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10
         img.img-a(src='@/assets/curso/temas/tema_1/img_19.svg', alt='Texto que describa la imagen')
@@ -246,7 +247,7 @@
       .col-lg-5.mb-5.mb-lg-0
         img.img-a(src='@/assets/curso/temas/tema_1/img_20.png', alt='Texto que describa la imagen')
       .col-lg-7
-        p Esta metodología, llamada así por sus siglas (RDA – Desarrollo Rápido de Aplicaciones) y también RAD por su origen en inglés (Rapid Application Development), consiste en tener un desarrollo de <em>software</em> lineal secuencial como se estudió en el modelo en cascada, pero llevándolo a un proceso en paralelo con distintos equipos de trabajo.
+        p Esta metodología, llamada así por sus siglas (RDA – Desarrollo Rápido de Aplicaciones) y también RAD por su origen en inglés (#[i Rapid Application Development]), consiste en tener un desarrollo de <em>software</em> lineal secuencial como se estudió en el modelo en cascada, pero llevándolo a un proceso en paralelo con distintos equipos de trabajo.
 
         p Estos equipos serán responsables ―cada uno― de una parte de los requerimientos del proyecto. El objetivo de esta metodología es tener en un periodo corto el producto final completo.
 
@@ -258,7 +259,7 @@
       .col-lg-7.mb-5.mb-md-0
         h4.mb-5 El esquema de fases o etapas para esta metodología es el siguiente:
         LineaTiempoD.color-acento-contenido.especial
-          p.text-small(numero="1" titulo="Modelado de gestión") Son dispositivos, herramientas, aparatos, instrumentos y máquinas que En esta etapa se modela la información que gestiona el negocio, la información que el propio negocio genera y el responsable de esta, a dónde se lleva y el responsable de su procesamiento.
+          p.text-small(numero="1" titulo="Modelado de gestión") En esta etapa se modela la información que gestiona el negocio, la información que el propio negocio genera y el responsable de esta, a dónde se lleva y el responsable de su procesamiento.
           
           p.text-small(numero="2" titulo="Modelado de datos") En este proceso de modelado se deben tener presente los objetos de datos que el <em>software</em> va a manejar, cuáles son los atributos de esos datos, cómo se componen y se relacionan entre sí y cuáles procesos de negocio impactan. Lo que se busca como objetivo final es modelar una abstracción muy clara del dominio total de los datos relevantes al problema o producto en cuestión.
           
@@ -275,9 +276,10 @@
         .bg_4.p-5
           img.img-b(src='@/assets/curso/temas/tema_1/img_22.png', alt='Texto que describa la imagen')
       .col-lg-7.d-flex.d-none.d-lg-block
-        .bg_3.p-5
-          .bg_5.p-4.mb-5.mgr_left
+        .bg_3.p-4
+          .bg_5.p-4.mb-4.mgr_left
             p #[strong Tenga en cuenta:] las etapas anteriores se pueden modificar o variar según los libros, el autor o la página web consultada.
+          p La característica más importante es que se necesita involucrar al cliente. Esta cooperación es necesaria para resolver dudas y poder avanzar.
           p.mb-0 También se requiere un gran volumen de recursos para poder realizar el trabajo en varios equipos de manera simultánea, además, se requiere que el <em>software</em> a desarrollar pueda ser modularizado.
 
     .row.justify-content-center.d-block.d-lg-none(data-aos="zoom-in-left")
@@ -286,6 +288,7 @@
           .col-lg-12.bg_3_1.p-5
             .bg_5.p-4.mb-3
               p #[strong Tenga en cuenta:] las etapas anteriores se pueden modificar o variar según los libros, el autor o la página web consultada.
+            p La característica más importante es que se necesita involucrar al cliente. Esta cooperación es necesaria para resolver dudas y poder avanzar.
             p.mb-3 También se requiere un gran volumen de recursos para poder realizar el trabajo en varios equipos de manera simultánea, además, se requiere que el <em>software</em> a desarrollar pueda ser modularizado.
         .bg_4_1.p-5
           img.img-a(src='@/assets/curso/temas/tema_1/img_22.png', alt='Texto que describa la imagen')

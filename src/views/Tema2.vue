@@ -83,59 +83,59 @@
           img(src='@/assets/curso/temas/tema_2/img_3.svg', alt='Texto que describa la imagen')
 
       .tarjeta.color-acento-contenido.p-4.mb-5(x="2%" y="47%" numero="+")
-        .h5.mb-2 Product Owner
+        .h5.mb-2 #[i Product Owner]
         p.mb-0 Es una persona definida por el cliente, tiene que conocer muy bien el negocio y estar en todo el proceso del proyecto como un involucrado encargado de definir el <em>software</em>.
 
       .tarjeta.color-acento-contenido.p-4(x="10%" y="41%" numero="+")
-        .h5.mb-2 Team
+        .h5.mb-2 #[i Team]
         p.mb-0 Equipo de desarrolladores conformado por entre 3 y 7 personas.
 
       .tarjeta.color-acento-contenido.p-4(x="18%" y="47%" numero="+")
-        .h5.mb-2 Scrum Master
+        .h5.mb-2 #[i Scrum Master]
         p.mb-0 Es el rol encargado de quitar todos los posibles obstáculos del proyecto y engranar todas las piezas para que funcionen bien, en pocas palabras, es un facilitador, y junto con el Product Owner, se ocupa de definir la operatividad del <em>software</em>.
 
       .tarjeta.color-acento-contenido.p-4(x="24%" y="47%" numero="+")
-        .h5.mb-2 Project Manager
+        .h5.mb-2 #[i Project Manager]
         p.mb-0 Integra el proyecto a la organización y es el encargado de los recursos y su aprobación.
 
       .tarjeta.color-acento-contenido.p-4(x="58%" y="28%" numero="+")
-        .h5.mb-2 Daily Scrum
+        .h5.mb-2 #[i Daily Scrum]
         p.mb-0 Reunión diaria que se lleva a cabo entre el Scrum Master y el equipo para revisar las tareas del día.
 
       .tarjeta.color-acento-contenido.p-4(x="10%" y="75%" numero="+")
-        .h5.mb-2 Sprint Backlog
+        .h5.mb-2 #[i Sprint Backlog]
         p.mb-0 Es el conjunto que se selecciona de requerimientos provenientes del <em>Product Backlog</em> y será desarrollado por el equipo en una iteración llamada <em>Sprint</em>.
 
       .tarjeta.color-acento-contenido.p-4(x="9%" y="105%" numero="+")
-        .h5.mb-2 Product Backlog
+        .h5.mb-2 #[i Product Backlog]
         p.mb-0 Es un listado de requerimientos ya priorizados del sistema.
 
       .tarjeta.color-acento-contenido.p-4(x="20%" y="95%" numero="+")
-        .h5.mb-2 Project Planning
+        .h5.mb-2 #[i Project Planning]
         p.mb-0 Proceso donde se planifica todo el proyecto.
 
       .tarjeta.color-acento-contenido.p-4(x="34%" y="102%" numero="+")
-        .h5.mb-2 Sprint Planning
+        .h5.mb-2 #[i Sprint Planning]
         p.mb-0 Tarea donde se lleva a cabo la planificación de la iteración.
 
       .tarjeta.color-acento-contenido.p-4(x="49%" y="82%" numero="+")
-        .h5.mb-2 Burdown Char
+        .h5.mb-2 #[i Burdown Char]
         p.mb-0 Modelo o diagrama que muestra el trabajo sin terminar. Se puede hacer para el <em>Sprint</em> como también para el proyecto completo.
 
       .tarjeta.color-acento-contenido.p-4(x="50%" y="62%" numero="+")
-        .h5.mb-2 Sprint
+        .h5.mb-2 #[i Sprint]
         p.mb-0 Es una iteración de duración fija y dura entre 2 y 4 semanas.
 
       .tarjeta.color-acento-contenido.p-4(x="68%" y="89%" numero="+")
-        .h5.mb-2 Release
+        .h5.mb-2 #[i Release]
         p.mb-0 Versión del código funcional entregado al cliente.
 
       .tarjeta.color-acento-contenido.p-4(x="91%" y="102%" numero="+")
-        .h5.mb-2 Sprint Retrospective
+        .h5.mb-2 #[i Sprint Retrospective]
         p.mb-0 Como su nombre lo indica, el equipo con el <em>Scrum Master</em> revisan el <em>Sprint</em> que acaban de terminar y establecen cuáles son las fallas que se tuvieron y cómo mejorar para los próximos.
 
       .tarjeta.color-acento-contenido.p-4(x="84%" y="37%" numero="+")
-        .h5.mb-2 Demo Meeting
+        .h5.mb-2 #[i Demo Meeting]
         p.mb-0 Reunión que se realiza al finalizar el <em>Sprint</em> con el objetivo de mostrarle al cliente la nueva funcionalidad.
 
     .row.justify-content-center.mb-5.mt-5.my-5(data-aos="flip-down")
@@ -159,11 +159,11 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_4.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Kanban significa en japonés tarjetas visuales; la palabra kan es visual y la palabra ban es tarjeta. Hace parte de las metodologías ágiles cuyo objetivo es gestionar de forma óptima cómo se van completando las tareas y qué recursos tienen. Es así como Kanban es una metodología que busca apoyar a los equipos a encontrar un balance entre las tareas pendientes por realizar y la disponibilidad de cada integrante, su filosofía es la mejora continua a través de la técnica de extracción, es decir, se tiene un repositorio o lista de tareas de la cual se van tomando y se van anexando al flujo de trabajo apoyados en los tableros Kanban.
+            p.mb-0 Kanban significa en japonés tarjetas visuales; la palabra #[i kan] es visual y la palabra #[i ban] es tarjeta. Hace parte de las metodologías ágiles cuyo objetivo es gestionar de forma óptima cómo se van completando las tareas y qué recursos tienen. Es así como Kanban es una metodología que busca apoyar a los equipos a encontrar un balance entre las tareas pendientes por realizar y la disponibilidad de cada integrante, su filosofía es la mejora continua a través de la técnica de extracción, es decir, se tiene un repositorio o lista de tareas de la cual se van tomando y se van anexando al flujo de trabajo apoyados en los tableros Kanban.
 
     .titulo-sexto.color-acento-contenido(data-aos="flip-down")
       h5 Figura 5. 
-      | Tablero Kanban
+      | #[i Tablero Kanban]
 
     img.img-a(data-aos="flip-down")(src='@/assets/curso/temas/tema_2/img_5.png', alt='Texto que describa la imagen')
 
@@ -178,7 +178,7 @@
         LineaTiempoD.color-acento-contenido.especial
           p.text-small(numero="1" titulo="Empiece con lo que hace ahora") Esta metodología puede ser implementada en cualquier proceso de trabajo porque es lo suficientemente flexible para adaptarse.
           
-          p.text-small(numero="2" titulo="Comprométase a buscar e implementar cambios progresivos y evolutivos") Kanban no tiene roles integrados o definidos, puede integrarse y funcionar con la jerarquía de su equipo.
+          p.text-small(numero="2" titulo="Comprométase a buscar e implementar cambios progresivos y evolutivos") Los cambios muy grandes pueden impactar negativamente el equipo, por la demora, el esfuerzo y los posibles arreglos que toque realizar; por eso se deben hacer pequeños cambios e ir evolucionando.
 
           p.text-small(numero="3" titulo="Respete los roles, los procesos y las responsabilidades actuales") Kanban no tiene roles integrados o definidos, puede integrarse y funcionar con la jerarquía de su equipo.
 
@@ -272,7 +272,7 @@
         i.fas.fa-play.play_3.m-1
         span.text_span Programación Extrema XP
 
-    p.mb-5(data-aos="flip-down") Por sus siglas en ingles XP (Extreme Programming) fue desarrollada por Kent Beck y busca la disciplina extrema de las personas que conforman el equipo de desarrollo aplicando unas prácticas consideradas esenciales en el proceso. Se fundamenta en valores, principios y prácticas.
+    p.mb-5(data-aos="flip-down") Por sus siglas en ingles XP (#[i Extreme Programming]) fue desarrollada por Kent Beck y busca la disciplina extrema de las personas que conforman el equipo de desarrollo aplicando unas prácticas consideradas esenciales en el proceso. Se fundamenta en valores, principios y prácticas.
 
     h4.mb-5(data-aos="flip-down") Los valores incluyen los de todo el grupo que conforma el proyecto, en este caso se refiere a la forma como toman las decisiones frente a una situación específica; son cinco y se describen a continuación:
 
@@ -387,34 +387,34 @@
           .tarjeta.tarj_bg-3.p-4(titulo="El juego de la planificación")
             h5 El juego de la planificación
             p.text-small Esta práctica es muy importante y requiere una participación activa del cliente en la planificación de los requerimientos junto con el equipo en busca de la cohesión entre el conocimiento del negocio y los requerimientos por parte del cliente, y el de costos y desarrollo del equipo.
-          .tarjeta.tarj_bg-3.p-4(titulo="Pequeños <em>releases</em>")
+          .tarjeta.tarj_bg-3.p-4.tb(titulo="Pequeños <em>releases</em>")
             h5 Pequeños <em>releases</em>
             p.text-small El equipo de desarrollo debe velar por entregar con frecuencia al cliente versiones de las iteraciones funcionales.
-          .tarjeta.tarj_bg-3.p-4(titulo="Metáforas")
+          .tarjeta.tarj_bg-3.p-4.tb_1(titulo="Metáforas")
             h5 Metáforas
             p.text-small Capacidad de explicar el sistema a personas nuevas con base en el concepto de metáforas con el fin de evitar el tiempo que gastarían leyendo la documentación.
-          .tarjeta.tarj_bg-3.p-4(titulo="Diseño simple")
+          .tarjeta.tarj_bg-3.p-4.tb_2(titulo="Diseño simple")
             h5 Diseño simple
             p.text-small La idea es hacer solo lo que se solicita y mantener todo con simplicidad.
-          .tarjeta.tarj_bg-3.p-4(titulo="Desarrollo guiado por pruebas")
+          .tarjeta.tarj_bg-3.p-4.tb_3(titulo="Desarrollo guiado por pruebas")
             h5 Desarrollo guiado por pruebas
             p.text-small Es un enfoque evolutivo que permite el desarrollo de actividades con calidad. Para ello se crea primero la prueba con la cual se va a testear y después se hace la mejora.
-          .tarjeta.tarj_bg-3.p-4(titulo="Refactorización")
+          .tarjeta.tarj_bg-3.p-4.tb_4(titulo="Refactorización")
             h5 Refactorización
             p.text-small Consiste en mejorar el código ya realizado sin alterar su comportamiento.
-          .tarjeta.tarj_bg-3.p-4(titulo="Programación en parejas")
+          .tarjeta.tarj_bg-3.p-4.tb_5(titulo="Programación en parejas")
             h5 Programación en parejas
             p.text-small Es una técnica de trabajo que reúne a un equipo de dos personas en un solo computador para que ambas trabajen resolviendo el mismo problema.
-          .tarjeta.tarj_bg-3.p-4(titulo="Propiedad colectiva del código")
+          .tarjeta.tarj_bg-3.p-4.tb_6(titulo="Propiedad colectiva del código")
             h5 Propiedad colectiva del código
             p.text-small Esta práctica indica que el código no se privatiza o ciertas partes no son de equis desarrollador; cualquier desarrollador del equipo puede desarrollar o mejorar cualquier funcionalidad.
-          .tarjeta.tarj_bg-3.p-4(titulo="Integración continua")
+          .tarjeta.tarj_bg-3.p-4.tb_7(titulo="Integración continua")
             h5 Integración continua
             p.text-small Indica que se requiere que todo se vaya integrando y probando de forma continua, sin esperar hasta el final para unir todas las partes.
-          .tarjeta.tarj_bg-3.p-4(titulo="Historias de usuario")
+          .tarjeta.tarj_bg-3.p-4.tb_8(titulo="Historias de usuario")
             h5 Historias de usuario
             p.text-small Es un documento importante donde se describen las funcionalidades del proyecto.
-          .tarjeta.tarj_bg-3.p-4(titulo="Estándares de codificación")
+          .tarjeta.tarj_bg-3.p-4.tb_9(titulo="Estándares de codificación")
             h5 Estándares de codificación
             p.text-small Consiste en producir código con un estilo estandarizado para todo el proyecto y no que cada desarrollador lo haga a su estilo.
 
@@ -458,21 +458,22 @@
     .row.mb-5(data-aos="flip-down")
       .col-lg-8.mb-5.mb-md-0
         TabsA.color-acento-botones.mb-5
-          .tarjeta.tarj_bg-3.p-4(titulo="Launch")
+          .tarjeta.tarj_bg-3.p-4(titulo="<em>Launch</em>")
             h5 Launch
             p.text-small Es el inicio del proyecto donde se identifica el alcance, la arquitectura a alto nivel, se vinculan todos los interesados del proyecto y se elabora el presupuesto.
-          .tarjeta.tarj_bg-3.p-4(titulo="Design")
+          .tarjeta.tarj_bg-3.p-4(titulo="<em>Design</em>")
             h5 Design
             p.text-small Se diseña todo el <em>software</em>, incluyendo la arquitectura detallada.
-          .tarjeta.tarj_bg-3.p-4(titulo="Realization")
+          .tarjeta.tarj_bg-3.p-4(titulo="<em>Realization</em>")
             h5 Realization
             p.text-small Proceso de codificación del <em>software</em> que se hace de forma gradual con priorización de los requerimientos.
-          .tarjeta.tarj_bg-3.p-4(titulo="Delivery")
+          .tarjeta.tarj_bg-3.p-4(titulo="<em>Delivery</em>")
             h5 Delivery
             p.text-small Implementación y pruebas del <em>software</em>.
       .col-lg-4.mb-5.mb-md-0
         img.img-a(src='@/assets/curso/temas/tema_2/img_19.png', alt='Texto que describa la imagen')
 
+    h4.mb-5 Las metodologías ágiles tienen las siguientes características en común:
     .bg_2.p-5.mb-5
       .row.mb-5(data-aos="flip-down")
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -507,7 +508,7 @@
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_23.svg')})`}")
               .tarjeta-flip__contenido.p-5.p-xl-3
-                h5 Menos costes
+                h5 Crea cultura de mejora
                 p Así como en una empresa, un equipo de proyecto debe tener cultura: la de la comunicación, por ejemplo; pero en este caso se enmarca en la importancia de la calidad, que se vuelve cultura al crear estrategias, prácticas y formas de trabajo que se llevan a cabo en cada tarea realizada para que  el trabajo sea más eficiente.
 
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -523,30 +524,30 @@
         .col-lg-8.mb-5.mb-md-0
           .cajon-b.color-acento-botones.p-2
             p Para finalizar, encontramos las siguientes ventajas y desventajas de estas metodologías.
-              h4 Ventajas:
+              h4 Ventajas
           .row.justify-content-center
             .col-lg-11
               ul.lista-ul--color
                 li
                   i.fas.fa-play.m-2.tam_i.my-0
-                  span Incentiva la creatividad
+                  span Incentiva la creatividad.
                 li
                   i.fas.fa-play.m-2.tam_i.my-0
-                  span Entregas continuas
+                  span Entregas continuas.
                 li
                   i.fas.fa-play.m-2.tam_i.my-0
-                  span Mejora continua del flujo de trabajo
+                  span Mejora continua del flujo de trabajo.
                 li
                   i.fas.fa-play.m-2.tam_i.my-0
-                  span Flexibilidad ante los cambios
+                  span Flexibilidad ante los cambios.
                 li
                   i.fas.fa-play.m-2.tam_i.my-0
-                  span Se eliminan los cambios posteriores a los proyectos ya terminados
+                  span Se eliminan los cambios posteriores a los proyectos ya terminados.
                 li
                   i.fas.fa-play.m-2.tam_i.my-0
                   span Mejora la comunicación del equipo e involucra más estrechamente al cliente.
 
-          h4 Desventajas:
+          h4 Desventajas
 
           .row.justify-content-center
             .col-lg-11
@@ -555,7 +556,7 @@
                   ul.lista-ul--color
                     li
                       i.fas.fa-play.m-2.tam_i.my-0
-                      span La excesiva revisión puede llevar a retrasos
+                      span La excesiva revisión puede llevar a retrasos.
                     li
                       i.fas.fa-play.m-2.tam_i.my-0
                       span Sin un equipo de trabajo calificado las entregas pueden ser tardías.
