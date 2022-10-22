@@ -3,10 +3,14 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-sexto.color-acento-contenido.color-adicional-1.mb-5
-      h5 Desarrollo de aplicaciones web <em>full stack</em>
-      br
-      | Síntesis: análisis, diseño y arquitectura de <em>software</em>
+    .row.mb-5.align-items-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.color-adicional-1.mb-5
+          h5 Desarrollo de aplicaciones web <em>full stack</em>
+          br
+          | Síntesis: análisis, diseño y arquitectura de <em>software</em>
+      .col-lg-2
+        img.img-a(src="@/assets/curso/temas/img_sin.png", alt="alt")
 
     p.mb-5 En la siguiente síntesis tendrá una mirada resumida de su ruta de conocimiento a través de este componente.
 
@@ -14,12 +18,7 @@
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
-      .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Anexo. Síntesis
+      
 
 </template>
 
