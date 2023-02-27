@@ -174,13 +174,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Agilemanifesto.org. (s.f.). Manifiesto por el Desarrollo Ágil de Software.',
+        'Beck, K., et al. (2001).<em> Manifiesto por el Desarrollo Ágil de Software.</em>',
       link: 'https://agilemanifesto.org/iso/es/manifesto.html',
     },
 
     {
       referencia:
-        'Carrizo, D., & Alfaro, A. (2018). Método de aseguramiento de la calidad en una metodología de desarrollo de software: un enfoque práctico. Ingeniare. Revista chilena de ingeniería, 26(1), 114-129.',
+        'Carrizo, D., & Alfaro, A. (2018). Método de aseguramiento de la calidad en una metodología de desarrollo de software: un enfoque práctico. <i>Ingeniare. Revista chilena de ingeniería, 26</i>(1), p. 114-129.',
     },
     {
       referencia:
@@ -188,23 +188,23 @@ export default {
     },
     {
       referencia:
-        'Jabangwe, R., Edison, H., & Duc, A. N. (2018). Software engineering process models for mobile app development: A systematic literature review. Journal of Systems and Software, 145, 98-111.',
+        'Jabangwe, R., Edison, H. & Duc, A. N. (2018). Software engineering process models for mobile app development: A systematic literature review.<i> Journal of Systems and Software,</i> 145, p. 98-111.',
     },
     {
       referencia:
-        'Montero, B. M., Cevallos, H. V., & Cuesta, J. D. (2018). Metodologías ágiles frente a las tradicionales en el proceso de desarrollo de software. Espirales revista multidisciplinaria de investigación, 2(17), 114-121.',
+        'Montero, B. M., Cevallos, H. V., & Cuesta, J. D. (2018). Metodologías ágiles frente a las tradicionales en el proceso de desarrollo de software. <i>Espirales revista multidisciplinaria de investigación, 2</i>(17), p. 114-121.',
     },
     {
       referencia:
-        'Silva, A., Ledezma, E., Castorena, J., Domínguez, A., & Riojas, A. (2018). Utilidad del Lenguaje Unificado de Modelado (UML) en el desarrollo de software profesional dentro del sector empresarial y educativo. Ciencia Cierta revista de divulgación científica, 56.',
+        'Silva, A., Ledezma, E., Castorena, J., Domínguez, A. & Riojas, A. (2018). Utilidad del Lenguaje Unificado de Modelado (UML) en el desarrollo de software profesional dentro del sector empresarial y educativo.<i> Ciencia Cierta revista de divulgación científica, 56.</i>',
     },
     {
       referencia:
-        'Velásquez, S. M., Montoya, J. D. V., Adasme, M. E. G., Zapata, E. J. R., Pino, A. A., & Marín, S. L. (2019). Una revisión comparativa de la literatura acerca de metodologías tradicionales y modernas de desarrollo de software. Revista Cintex, 24(2), 13-23.',
+        'Velásquez, S. M., Montoya, J. D. V., Adasme, M. E. G., Zapata, E. J. R., Pino, A. A. & Marín, S. L. (2019). Una revisión comparativa de la literatura acerca de metodologías tradicionales y modernas de desarrollo de software. <i>Revista Cintex</i>, 24(2), p. 13-23.',
     },
     {
       referencia:
-        'Zumba, J. (2018). Evolución de las Metodologías y Modelos utilizados en el Desarrollo de Software. INNOVA Research Journal, Vol 3, No. 10, 20-33.',
+        'Zumba, J. (2018). Evolución de las Metodologías y Modelos utilizados en el Desarrollo de Software.<i> INNOVA Research Journal,</i> 3(10), p. 20-33.',
     },
   ],
   creditos: {

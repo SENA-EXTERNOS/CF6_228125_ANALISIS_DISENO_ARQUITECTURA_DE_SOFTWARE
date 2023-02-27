@@ -15,7 +15,7 @@
     separador
     
     #encabezados.titulo-segundo.color-acento-contenido(data-aos="flip-down")
-      h3 Diagrama de base de datos
+      h2 Diagrama de base de datos
 
     .row.mb-5(data-aos="flip-down")
       .col-lg-8.mb-5.mb-md-0
@@ -25,11 +25,17 @@
 
       .col-lg-3
         img.img-a(src='@/assets/curso/temas/tema_4/img_1.png', alt='Texto que describa la imagen')
+    p.mb-5(data-aos="flip-down") El diseño del modelo entidad-relación, corresponde a la segunda fase de la creación de una base de datos, que se realiza una vez se ha recopilado toda la información por parte del cliente. Los elementos básicos de un modelo entidad-relación son: las entidades, las relaciones, los atributos y las cardinalidades, que pueden observarse en la siguiente gráfica, y que se explican seguidamente.
 
-    h5.mb-5(data-aos="flip-down") Los elementos de un modelo de entidad / relación son:
+
 
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
+        .titulo-sexto.mb-5.color-acento-contenido(data-aos="flip-down")
+          h5 Figura 6
+          p.mb-0 
+            em Elementos de un modelo de entidad / relación
+          
         img.img-a(src='@/assets/curso/temas/tema_4/img_2.svg', alt='Texto que describa la imagen')
 
     .row.mb-5(data-aos="flip-down")
@@ -40,8 +46,7 @@
           div(titulo="Entidades")
             p Las entidades se representan gráficamente mediante un rectángulo que en el interior lleva el nombre correspondiente. El nombre de la entidad no se debe repetir, cada entidad lleva su nombre.
 
-            span.color_txt Ejemplos de entidades: 
-            | profesores, empleados, estudiantes, clientes, proveedores, etc. 
+            p <b>Ejemplos de entidades:</b> profesores, empleados, estudiantes, clientes, proveedores, etc. 
 
           div(titulo="Relaciones")
             p Las relaciones son las asociaciones que se describen entre dos atributos (campos) de dos tablas para compartir información. Esas respectivas relaciones entre las entidades se representan por medio de un rombo y describiendo en el interior la acción de la relación. 
@@ -49,8 +54,7 @@
           div(titulo="Atributos")
             p Una entidad está representada por un grupo de atributos, los cuales son los encargados de describir una entidad específica. Como los atributos se encargan de describir cada una de las características o propiedades de la entidad, se representan por medio de una elipse o un círculo con su nombre correspondiente en el interior.
 
-            span.color_txt Por ejemplo
-            |, la entidad vehículo se puede describir con los atributos marca, modelo, color, placa, número de pasajeros, etc. 
+            p <b>Por ejemplo,</b> la entidad vehículo se puede describir con los atributos marca, modelo, color, placa, número de pasajeros, etc. 
 
           div(titulo="Cardinalidad")
             p Esta cardinalidad dentro del modelo se representa en los extremos de cada relación. La cardinalidad expresa cuántas entidades de un extremo de la relación están relacionadas con cuántas entidades del otro extremo. Pueden ser “uno a uno”, “uno a varios” o “varios a varios”. 
@@ -84,8 +88,9 @@
           img.img-a(src='@/assets/curso/temas/tema_4/img_4.png', alt='Texto que describa la imagen')
 
       .titulo-sexto.color-acento-contenido(data-aos="flip-down")
-        h5 Figura 6. 
-        | #[i Modelo de una clase]
+        h5 Figura 7
+        p.mb-0
+          i Modelo de una clase
 
       .row.justify-content-center.mb-5(data-aos="flip-down")
         .col-lg-5.mb-5.mb-md-0
@@ -101,22 +106,22 @@
           ul.lista-ul--color
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Clases, asociaciones y atributos
+              | Clases, asociaciones y atributos.
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Interfaces, con sus operaciones y constantes
+              | Interfaces, con sus operaciones y constantes.
             li
               i.fas.fa-play.m-2.tam_i.my-0
               | Métodos
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Información sobre los tipos de los atributos
+              | Información sobre los tipos de los atributos.
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Navegabilidad
+              | Navegabilidad.
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Dependencias
+              | Dependencias.
 
       .row.justify-content-center.mb-5(data-aos="flip-down")
         .col-lg-7.mb-5.mb-md-0
@@ -275,7 +280,7 @@
           div(titulo="Relaciones")
             p Son las formas como se asocian los casos de usos, los actores y casos de uso y actores.
       .col-lg-6.mb-5.mb-md-0
-        img.img-a(src='@/assets/curso/temas/tema_4/img_8.svg', alt='Texto que describa la imagen')
+        img.img-a(src='@/assets/curso/temas/tema_4/img_8-.svg', alt='Texto que describa la imagen')
 
     .bg_6.p-5
       ul.mb-5(data-aos="flip-down")
@@ -347,8 +352,9 @@
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 7. 
-          | #[i Ejemplo diagrama de componentes de correo electrónico]
+          h5 Figura 8
+          p.mb-0
+            em Ejemplo diagrama de componentes de correo electrónico
 
     img.img-a.mb-3(data-aos="flip-down")(src='@/assets/curso/temas/tema_4/img_10.svg', alt='Texto que describa la imagen')
 
@@ -383,7 +389,7 @@
 
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-7.mb-5.mb-md-0
-        p La arquitectura de una API normalmente es cliente – servidor. La solicitud es enviada por el cliente hacía la API que estaría en el servidor y puede funcionar de cuatro formas diferentes:
+        p La arquitectura de una API normalmente es cliente – servidor. La solicitud es enviada por el cliente hacia la API que se encuentra en el servidor y puede funcionar de cuatro formas diferentes:
 
         ul.lista-ul--color.lista-ul--separador
           li
@@ -414,7 +420,7 @@
 
     .bg_7.p-5
       .bg_8.p-4
-        h6 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 </template>
 
 <script>

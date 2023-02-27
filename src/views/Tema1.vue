@@ -20,7 +20,7 @@
       .col-lg-7(data-aos="flip-left")
         p Desarrollar un <em>software</em> de calidad depende de un proceso que contiene actividades y etapas donde la elección de la metodología a seguir genera un impacto trascendental en el éxito del proyecto.
 
-        p Las metodologías de <em>software</em> tradicionales son aquellas que siguen un proceso lineal donde cada una de las etapas del proceso debe ejecutarse secuencialmente, seguida una de la otra. Estas metodologías se caracterizan por ser rígidas; al tener que definir todos los requerimientos desde el inicio del proyecto, no son flexibles ni permiten los cambios.
+        p Las metodologías de <em>software</em> tradicionales, son aquellas que siguen un proceso lineal donde cada una de las etapas del proceso, debe ejecutarse secuencialmente, seguida una de la otra. Estas metodologías se caracterizan por ser rígidas; al tener que definir todos los requerimientos desde el inicio del proyecto, no son flexibles ni permiten cambios.
 
       .col-lg-5(data-aos="flip-right")
         img.img-a(src='@/assets/curso/temas/tema_1/img_2.png', alt='Texto que describa la imagen')
@@ -44,29 +44,28 @@
 
         p Esta metodología de <em>software</em> divide el proceso de desarrollo en etapas que se organizan y recorren de arriba a abajo en estricto orden; de ahí se deriva su nombre.
 
-        p.mb-5 El proceso incluye una serie de etapas, como se presenta en la siguiente figura.
+        p.mb-5 El proceso incluye una serie de pasos, como se presenta en la siguiente figura.
 
         .row.mb-5
           .col-lg-6.mb-5
             .titulo-sexto.color-acento-contenido
-              h5 Figura 1. 
-              | #[i Modelo de cascada]
+              h5 Figura 1
+              p.mb-0
+                em Modelo de cascada
             .row.justify-content-center
               .col-lg-10
                 img.img-a(src='@/assets/curso/temas/tema_1/img_4.svg', alt='Texto que describa la imagen')
           .col-lg-5.mb-5
             img.img-a(src='@/assets/curso/temas/tema_1/img_5.png', alt='Texto que describa la imagen')
-  
 
-    .row.mb-5.justify-content-center
-      .col-lg-8(data-aos="zoom-in-left")
-        h5 Amplíe la información sobre cada una de las fases o etapas. 
+
+    p Ampliemos la información sobre cada una de las fases o etapas. 
 
     PasosA.color-primario.mb-5(tipo="n")(data-aos="zoom-in-left")
       .row.align-items-center
         .col-md-7.mb-4.mb-md-0
           h3 Definición del <em>software</em>
-          p En esta fase se define el producto desde una visión a alto nivel con los diferentes aspectos importantes que se deben tener en cuenta.
+          p En esta fase, se define el producto desde una visión de alto nivel con los diferentes aspectos importantes que se deben tener en cuenta.
         .col-md-5
           figure
             img.img-a(src='@/assets/curso/temas/tema_1/img_6.png', alt='Texto que describa la imagen')
@@ -77,7 +76,7 @@
             img.img-a(src='@/assets/curso/temas/tema_1/img_7.png', alt='Texto que describa la imagen')
         .col-md-7.text-left
           h3 Análisis de requerimientos
-          p Esta fase comprende las tareas de entender el negocio en su totalidad, de conocer el producto que se quiere desarrollar, sus funciones, sus características, quiénes lo usarán y las relaciones con los sistemas externos.
+          p Esta fase comprende las tareas de entender el negocio en su totalidad, conocer el producto que se quiere desarrollar, sus funciones, características, quiénes lo usarán y las relaciones con los sistemas externos.
           
 
       .row
@@ -94,7 +93,7 @@
             img.img-a(src='@/assets/curso/temas/tema_1/img_9.png', alt='Texto que describa la imagen')
         .col-md-7
           h3 Codificación.
-          p En esta etapa se ejecuta el código de la aplicación de acuerdo a lo estipulado en las fases anteriores para cumplir todo lo pactado.
+          p En esta etapa se ejecuta el código de la aplicación, de acuerdo con lo estipulado en las fases anteriores, para cumplir todo lo pactado.
       
       .row
         .col-md-7.mb-4.mb-md-0
@@ -127,7 +126,7 @@
           img.img-a(src='@/assets/curso/temas/tema_1/img_12.png', alt='Texto que describa la imagen')
 
         .col-lg-7
-          p Una vez plasmados los requisitos quedan en un estado congelados, lo que dificulta que se cambien o que se incorpore otro requisito al producto; un ejemplo de esto sería que al final de todo el desarrollo, cuando se está probando la calidad del producto en la fase de pruebas, el cliente solicite un nuevo requerimiento por un cambio en su negocio o simplemente porque se le había olvidado. La magnitud de este impacto en el proyecto genera caos porque la fase de requisitos es prácticamente la primera, lo que hace imposible satisfacer esta nueva necesidad.
+          p Una vez plasmados los requisitos, estos quedan en un estado de congelados, lo que dificulta que se cambien o que se incorpore otro requisito al producto; un ejemplo de esto sería que, al final de todo el desarrollo, cuando se está probando la calidad del producto en la fase de pruebas, el cliente solicite un nuevo requerimiento por un cambio en su negocio, o simplemente porque se le había olvidado. La magnitud de este impacto en el proyecto, genera caos porque la fase de requisitos es prácticamente la primera, lo que hace imposible satisfacer esta nueva necesidad.
 
           p Las fases no se pueden solapar, solo se inicia una fase cuando la etapa o fase anterior esté totalmente finalizada y probada. Tampoco son aconsejables el reproceso o la revisión de fases anteriores.
 
@@ -139,21 +138,20 @@
           span.text_span Prototipado
 
       p El prototipado es una metodología de desarrollo iterativa en la cual se desarrolla una maqueta de la solución. Este prototipo se produce con el fin de mostrarle al cliente si se entendieron los requerimientos iniciales a alto nivel que se hicieron, y si van por buen camino, es decir, se hace el refinamiento junto al cliente.
-      p En este proceso, el cliente estará probando cada uno de los prototipos que se desarrollen desde el equipo de proyecto y emitirá su juicio valorativo, de acuerdo con él, el equipo desecha el prototipo la gran mayoría de veces, o lo termina para evolucionando.
+      p En este proceso, el cliente estará probando cada uno de los prototipos que se desarrollen, desde el equipo de proyecto y emitirá su juicio valorativo; de acuerdo con él, la gran mayoría de las veces el equipo desecha el prototipo, o lo termina para evolucionando.
 
-      p El objetivo principal en esta metodología es poder disminuir el riesgo asociado a los requerimientos y su falta de comprensión.
 
-      p.mb-5 Gráficamente, el modelo se presenta así:
 
     .row.mb-5.justify-content-evenly.align-items-center(data-aos="zoom-in-left")
       .col-lg-6.mb-5
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2. 
-          | #[i Modelo de prototipado]
+          h5 Figura 2
+          p.mb-0
+            em Modelo de prototipado
         img.img-a(src='@/assets/curso/temas/tema_1/img_14.svg', alt='Texto que describa la imagen')
       .col-lg-5.mb-5
         .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0 Una de las características que tiene esta metodología, la cual puede ser desfavorable, es que al presentarle un prototipo funcional al cliente, este tenga la idea errada de que ya está listo el <em>software</em> y solo falten detalles menores.
+          p.mb-0 Una de las características que tiene esta metodología, la cual puede ser desfavorable, es que, al presentarle un prototipo funcional al cliente, este tenga la idea errada que ya está listo el <em>software</em> y solo faltan detalles menores.
 
         p El usuario / cliente al estar involucrado en el proceso de desarrollo aumenta la aceptación del producto final que será implementado. 
 
@@ -167,10 +165,10 @@
         span.text_span Espiral
 
     .cajon-b.color-acento-botones.p-3.mb-5(data-aos="zoom-in-left")
-      p.mb-0 Esta metodología tiene la combinación de los modelos iterativos en su esencia, como el prototipado y el cascada, por lo tanto, es una metodología de carácter incremental.
+      p.mb-0 Esta metodología tiene la combinación de los modelos iterativos en su esencia, como el prototipado y el de cascada, por lo tanto, es una metodología de carácter incremental.
         br
         br
-        | El modelo cascada ofrece un proceso ordenado estricta y estructuralmente para el proyecto, pero las demandas de la industria de tiempos acelerados o reducidos hace que sus fases sean inapropiadas. Este modelo se basa en ese orden de la cascada volviéndolo iterativo o incremental, teniendo presente que, al ser evolutivo, se aprovechan mejor las funcionalidades del equipo.
+        | El modelo de cascada ofrece un proceso ordenado estricta y estructuralmente para el proyecto, pero las demandas de la industria de tiempos acelerados o reducidos, hace que sus fases sean inapropiadas. Este modelo se basa en ese orden de la cascada volviéndolo iterativo o incremental, teniendo presente que, al ser evolutivo, se aprovechan mejor las funcionalidades del equipo.
 
     .row.mb-5.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-5.mb-5.mb-lg-0
@@ -178,14 +176,15 @@
       .col-lg-7
         .bloque-texto-b.color-acento-contenido
           .bloque-texto-b__texto.mb-2.p-2
-            p En este modelo se divide el <em>software</em> en mini proyectos que evoluciona cada uno de acuerdo a las fases que sigue el espiral, comenzando con la comunicación con el cliente para determinar los requisitos iniciales; luego se pasa a la planificación de esos requerimientos donde se incluye la estimación del coste en tiempo y recursos, continuando con el análisis de riesgo, luego empieza la ingeniería del proyecto donde se diseñan las posibles alternativas de prototipo, se presentan al cliente para su evaluación, después se construye, se entrega y se hace la retroalimentación; siempre de la mano del cliente. Si es aceptado, o se va por buen camino, se sigue evolucionando; de lo contrario, se descarta y se comienza de cero nuevamente.
+            p En este modelo, el <em>software</em> se divide en mini proyectos, los cuales evolucionan cada uno, de acuerdo con las fases que sigue el espiral, comenzando con la comunicación con el cliente, para determinar los requisitos iniciales; luego se pasa a la planificación de esos requerimientos donde se incluye la estimación del costo en tiempo y recursos, continuando con el análisis de riesgo; luego empieza la ingeniería del proyecto donde se diseñan las posibles alternativas de prototipo, se presentan al cliente para su evaluación, después se construye, se entrega y se hace la retroalimentación, siempre de la mano del cliente. Si es aceptado, o va por buen camino, se sigue evolucionando; de lo contrario, se descarta y se comienza nuevamente de cero.
 
-    h4.mb-5 La siguiente imagen presenta una explicación gráfica de este proceso.
+    p.mb-5 La siguiente imagen presenta una explicación gráfica de este proceso.
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-left")
-      h5 Figura 3. 
-      | #[i Modelo espiral]
-    img.img-a.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/tema_1/img_16.svg', alt='Texto que describa la imagen')
+      h5 Figura 3
+      p.mb-0
+        em Modelo espiral
+    img.img-a.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/tema_1/img_16-.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.mb-5
       .col-lg-8
         figcaption.bg_1  Nota: tomado y adaptado de Deloitte (2020).
@@ -196,9 +195,9 @@
         .row.align-items-center
           .col-lg-12
             .bg_2.p-5
-              P La metodología o modelo en espiral es un enfoque de desarrollo de <em>software</em> que surgió como respuesta a los inconvenientes presentados por el modelo cascada. El espiral basa todas sus fases, como se ve en el gráfico, a través de espirales que se van repitiendo hasta entregar un producto final.
+              P La metodología o modelo en espiral, es un enfoque de desarrollo de <em>software</em> que surgió como respuesta a los inconvenientes presentados por el modelo de cascada. El espiral como se ve en el gráfico, fundamenta todas sus fases, a través de espirales que se van repitiendo hasta entregar un producto final.
 
-              p Este modelo es global y se usa junto con otros modelos de desarrollo de <em>software</em> tanto tradicionales como ágiles.
+              p Este modelo es global y se usa junto con otros de desarrollo de <em>software</em>, tanto tradicionales como ágiles.
       .col-lg-4.d-flex
         .bg_3.p-4
           img.img-a(src='@/assets/curso/temas/tema_1/img_17.png', alt='Texto que describa la imagen')
@@ -218,23 +217,24 @@
         i.fas.fa-play.play_3.m-1
         span.text_span Incremental
 
-    p(data-aos="zoom-in-left") Esta metodología es otro modelo que tiene en cuenta la evolución del producto en el tiempo, iterando la funcionalidad del proyecto. La base fundamental de este modelo es el cascada que se irá iterando repetidamente e incrementando en cada iteración la funcionalidad del producto hasta completar así todos los requerimientos del proyecto.
+    p(data-aos="zoom-in-left") Esta metodología es otro modelo que tiene en cuenta la evolución del producto en el tiempo, reiterando la funcionalidad del proyecto. La base fundamental de este modelo es el de cascada que se presenta repetidamente e incrementa en cada iteración la funcionalidad del producto, hasta completar, de esta manera, todos los requerimientos del proyecto.
 
-    p.mb-5(data-aos="zoom-in-left") Es bueno recalcar que de esta metodología, en cada iteración, se obtiene un producto operacional y no un prototipo como en el modelo de prototipado. El siguiente gráfico presenta el esquema del modelo.
+    p.mb-5(data-aos="zoom-in-left") Es bueno recalcar de esta metodología que, en cada iteración, se obtiene un producto operacional y no un prototipo como en el modelo de prototipado. El siguiente gráfico presenta el esquema del modelo.
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-left")
-      h5 Figura 4. 
-      | #[i Modelo incremental]
+      h5 Figura 4
+      p.mb-0
+        i Modelo incremental
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10
-        img.img-a(src='@/assets/curso/temas/tema_1/img_19.svg', alt='Texto que describa la imagen')
+        img.img-a(src='@/assets/curso/temas/tema_1/img_19-.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-11
         .cajon.color-primario.p-4.mb-4
           p Una de las características de este modelo de desarrollo es que el <em>software</em> se puede empezar a utilizar incluso antes de que se complete totalmente y, en general, es mucho más flexible que las demás metodologías.
           
-          p.mb-0 Es importante tener claro que cada iteración debe dar como resultado un producto funcional; encargarse de implementar esto puede requerir de un trabajo extra en cada iteración, lo cual es un tiempo y un costo representativos y adicionales al proyecto.
+          p.mb-0 Es importante tener claro que, cada iteración debe dar como resultado un producto funcional; encargarse de implementar esto puede requerir de un trabajo extra en cada repetición, lo que es un tiempo y un costo representativos y adicionales al proyecto.
 
     ul.mb-5(data-aos="zoom-in-left")
       li
@@ -251,7 +251,7 @@
 
         p Estos equipos serán responsables ―cada uno― de una parte de los requerimientos del proyecto. El objetivo de esta metodología es tener en un periodo corto el producto final completo.
 
-        p Este modelo se caracteriza por sus equipos formados por más o menos seis personas, dentro de las cuales se incluyen desarrolladores y usuarios del sistema de tiempo completo, así como las demás personas involucradas de acuerdo con los requisitos.
+        p Este modelo se caracteriza por sus equipos formados por más o menos seis personas, dentro de las cuales se incluyen desarrolladores y usuarios del sistema de tiempo completo, así como las demás personas involucradas, de acuerdo con los requisitos.
 
     
 
@@ -259,7 +259,7 @@
       .col-lg-7.mb-5.mb-md-0
         h4.mb-5 El esquema de fases o etapas para esta metodología es el siguiente:
         LineaTiempoD.color-acento-contenido.especial
-          p.text-small(numero="1" titulo="Modelado de gestión") En esta etapa se modela la información que gestiona el negocio, la información que el propio negocio genera y el responsable de esta, a dónde se lleva y el responsable de su procesamiento.
+          p.text-small(numero="1" titulo="Modelado de gestión") En esta etapa, se modela la información que gestiona el negocio, la información que el propio negocio genera y el responsable de esta, adónde se lleva, y el responsable de su procesamiento.
           
           p.text-small(numero="2" titulo="Modelado de datos") En este proceso de modelado se deben tener presente los objetos de datos que el <em>software</em> va a manejar, cuáles son los atributos de esos datos, cómo se componen y se relacionan entre sí y cuáles procesos de negocio impactan. Lo que se busca como objetivo final es modelar una abstracción muy clara del dominio total de los datos relevantes al problema o producto en cuestión.
           
