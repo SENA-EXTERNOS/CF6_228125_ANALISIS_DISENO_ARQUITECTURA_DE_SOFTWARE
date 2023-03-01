@@ -59,7 +59,7 @@
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0.text-white 
                     h3.mb-1 Pilares de la programación orientada a objetos
-                    p.text-small A continuación se muestran los pilares de la programación orientada a objetos: 
+                    p A continuación, se muestran los pilares de la programación orientada a objetos: 
                   .col-sm-auto
                     a.boton.color-acento-botones(:href="obtenerLink('downloads/Infografia_pilares_de_la_programacion_orientada_a_objetos.pdf')" target="_blank")
                       span Descargar

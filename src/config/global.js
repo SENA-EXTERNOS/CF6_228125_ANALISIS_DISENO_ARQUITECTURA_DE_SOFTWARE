@@ -131,7 +131,7 @@ export default {
     {
       tema: 'Elementos de la estructura arquitectónica',
       referencia:
-        'Lucid Software Español. (2019). <em>Tutorial – Diagrama de Clases UML</em> (video). YouTube',
+        'Lucid Software Español. (4 Febrero de 2019). <em>Tutorial – Diagrama de Clases UML</em> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Z0yLerU0g-Q',
     },
@@ -180,7 +180,7 @@ export default {
 
     {
       referencia:
-        'Carrizo, D., & Alfaro, A. (2018). Método de aseguramiento de la calidad en una metodología de desarrollo de software: un enfoque práctico. <i>Ingeniare. Revista chilena de ingeniería, 26</i>(1), p. 114-129.',
+        'Carrizo, D., & Alfaro, A. (2018). Método de aseguramiento de la calidad en una metodología de desarrollo de software: un enfoque práctico. <i>Ingeniare. Revista chilena de ingeniería, 26(1)</i>, p. 114-129.',
     },
     {
       referencia:
@@ -192,7 +192,7 @@ export default {
     },
     {
       referencia:
-        'Montero, B. M., Cevallos, H. V., & Cuesta, J. D. (2018). Metodologías ágiles frente a las tradicionales en el proceso de desarrollo de software. <i>Espirales revista multidisciplinaria de investigación, 2</i>(17), p. 114-121.',
+        'Montero, B. M., Cevallos, H. V., & Cuesta, J. D. (2018). Metodologías ágiles frente a las tradicionales en el proceso de desarrollo de software. <i>Espirales revista multidisciplinaria de investigación, 2(17)</i>, p. 114-121.',
     },
     {
       referencia:
@@ -200,11 +200,11 @@ export default {
     },
     {
       referencia:
-        'Velásquez, S. M., Montoya, J. D. V., Adasme, M. E. G., Zapata, E. J. R., Pino, A. A. & Marín, S. L. (2019). Una revisión comparativa de la literatura acerca de metodologías tradicionales y modernas de desarrollo de software. <i>Revista Cintex</i>, 24(2), p. 13-23.',
+        'Velásquez, S. M., Montoya, J. D. V., Adasme, M. E. G., Zapata, E. J. R., Pino, A. A. & Marín, S. L. (2019). Una revisión comparativa de la literatura acerca de metodologías tradicionales y modernas de desarrollo de software. <i>Revista Cintex, 24(2)</i>, p. 13-23.',
     },
     {
       referencia:
-        'Zumba, J. (2018). Evolución de las Metodologías y Modelos utilizados en el Desarrollo de Software.<i> INNOVA Research Journal,</i> 3(10), p. 20-33.',
+        'Zumba, J. (2018). Evolución de las Metodologías y Modelos utilizados en el Desarrollo de Software.<i> INNOVA Research Journal, 3(10)</i>, p. 20-33.',
     },
   ],
   creditos: {

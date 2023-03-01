@@ -137,8 +137,8 @@
           i.fas.fa-play.play_3.m-1
           span.text_span Prototipado
 
-      p El prototipado es una metodología de desarrollo iterativa en la cual se desarrolla una maqueta de la solución. Este prototipo se produce con el fin de mostrarle al cliente si se entendieron los requerimientos iniciales a alto nivel que se hicieron, y si van por buen camino, es decir, se hace el refinamiento junto al cliente.
-      p En este proceso, el cliente estará probando cada uno de los prototipos que se desarrollen, desde el equipo de proyecto y emitirá su juicio valorativo; de acuerdo con él, la gran mayoría de las veces el equipo desecha el prototipo, o lo termina para evolucionando.
+      p El prototipado es una metodología de desarrollo iterativa, en la cual se desarrolla una maqueta de la solución. Este prototipo se produce con el fin de mostrarle al cliente si se entendieron los requerimientos iniciales que se hicieron a alto nivel, y si van por buen camino, es decir, se hace el refinamiento con el cliente.
+      p En este proceso, el cliente estará probando cada uno de los prototipos que desarrolle el equipo de proyecto y emitirá su juicio valorativo; dicho juicio determina si el prototipo es desechado o lo continúan para realizar mejoras.
 
 
 
@@ -168,7 +168,7 @@
       p.mb-0 Esta metodología tiene la combinación de los modelos iterativos en su esencia, como el prototipado y el de cascada, por lo tanto, es una metodología de carácter incremental.
         br
         br
-        | El modelo de cascada ofrece un proceso ordenado estricta y estructuralmente para el proyecto, pero las demandas de la industria de tiempos acelerados o reducidos, hace que sus fases sean inapropiadas. Este modelo se basa en ese orden de la cascada volviéndolo iterativo o incremental, teniendo presente que, al ser evolutivo, se aprovechan mejor las funcionalidades del equipo.
+        | El modelo de cascada ofrece un proceso ordenado, estricto y estructural para el proyecto, pero las demandas de la industria de tiempos acelerados o reducidos, hace que sus fases sean inapropiadas. Este modelo se basa en ese orden de la cascada volviéndolo iterativo o incremental, teniendo presente que, al ser evolutivo, se aprovechan mejor las funcionalidades del equipo.
 
     .row.mb-5.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-5.mb-5.mb-lg-0
@@ -176,7 +176,7 @@
       .col-lg-7
         .bloque-texto-b.color-acento-contenido
           .bloque-texto-b__texto.mb-2.p-2
-            p En este modelo, el <em>software</em> se divide en mini proyectos, los cuales evolucionan cada uno, de acuerdo con las fases que sigue el espiral, comenzando con la comunicación con el cliente, para determinar los requisitos iniciales; luego se pasa a la planificación de esos requerimientos donde se incluye la estimación del costo en tiempo y recursos, continuando con el análisis de riesgo; luego empieza la ingeniería del proyecto donde se diseñan las posibles alternativas de prototipo, se presentan al cliente para su evaluación, después se construye, se entrega y se hace la retroalimentación, siempre de la mano del cliente. Si es aceptado, o va por buen camino, se sigue evolucionando; de lo contrario, se descarta y se comienza nuevamente de cero.
+            p En este modelo el <em>software</em> se divide en mini proyectos, los cuales evolucionan de acuerdo con las fases que sigue el espiral, comenzando con la comunicación con el cliente para determinar los requisitos iniciales; luego se pasa a la planificación de esos requerimientos donde se incluye la estimación del costo en tiempo y recursos, continuando con el análisis de riesgo; luego empieza la ingeniería del proyecto donde se diseñan las posibles alternativas de prototipo, se presentan al cliente para su evaluación, se construye, se entrega y se hace la retroalimentación, siempre de la mano del cliente. Si es aceptado, o va por buen camino, se sigue evolucionando; de lo contrario, se descarta y se comienza nuevamente de cero.
 
     p.mb-5 La siguiente imagen presenta una explicación gráfica de este proceso.
 
@@ -195,7 +195,7 @@
         .row.align-items-center
           .col-lg-12
             .bg_2.p-5
-              P La metodología o modelo en espiral, es un enfoque de desarrollo de <em>software</em> que surgió como respuesta a los inconvenientes presentados por el modelo de cascada. El espiral como se ve en el gráfico, fundamenta todas sus fases, a través de espirales que se van repitiendo hasta entregar un producto final.
+              P La metodología o modelo en espiral, es un enfoque de desarrollo de <em>software</em> que surgió como respuesta a los inconvenientes presentados por el modelo de cascada. El espiral como se ve en la Figura 3, fundamenta todas sus fases, a través de espirales que se van repitiendo hasta entregar un producto final.
 
               p Este modelo es global y se usa junto con otros de desarrollo de <em>software</em>, tanto tradicionales como ágiles.
       .col-lg-4.d-flex
@@ -259,15 +259,15 @@
       .col-lg-7.mb-5.mb-md-0
         h4.mb-5 El esquema de fases o etapas para esta metodología es el siguiente:
         LineaTiempoD.color-acento-contenido.especial
-          p.text-small(numero="1" titulo="Modelado de gestión") En esta etapa, se modela la información que gestiona el negocio, la información que el propio negocio genera y el responsable de esta, adónde se lleva, y el responsable de su procesamiento.
+          p(numero="1" titulo="Modelado de gestión") En esta etapa, se modela la información que gestiona el negocio, la información que el propio negocio genera y el responsable de esta, adónde se lleva, y el responsable de su procesamiento.
           
-          p.text-small(numero="2" titulo="Modelado de datos") En este proceso de modelado se deben tener presente los objetos de datos que el <em>software</em> va a manejar, cuáles son los atributos de esos datos, cómo se componen y se relacionan entre sí y cuáles procesos de negocio impactan. Lo que se busca como objetivo final es modelar una abstracción muy clara del dominio total de los datos relevantes al problema o producto en cuestión.
+          p(numero="2" titulo="Modelado de datos") En este proceso de modelado se deben tener presente los objetos de datos que el <em>software</em> va a manejar, cuáles son los atributos de esos datos, cómo se componen y se relacionan entre sí y cuáles procesos de negocio impactan. Lo que se busca como objetivo final es modelar una abstracción muy clara del dominio total de los datos relevantes al problema o producto en cuestión.
           
-          p.text-small(numero="3" titulo="Modelado de proceso") Lo que busca este modelado es diseñar el proceso de manipulación de los datos del paso anterior, cómo se agregan, eliminan, modifican o se recuperan.
+          p(numero="3" titulo="Modelado de proceso") Lo que busca este modelado es diseñar el proceso de manipulación de los datos del paso anterior, cómo se agregan, eliminan, modifican o se recuperan.
           
-          p.text-small(numero="4" titulo="Generación de aplicaciones") En esta etapa es donde se desarrolla el código, de acuerdo con el lenguaje de programación seleccionado previamente en los requerimientos, y se tratan de reutilizar, siempre que se pueda, los componentes existentes de los procesos anteriores.
+          p(numero="4" titulo="Generación de aplicaciones") En esta etapa es donde se desarrolla el código, de acuerdo con el lenguaje de programación seleccionado previamente en los requerimientos, y se tratan de reutilizar, siempre que se pueda, los componentes existentes de los procesos anteriores.
 
-          p.text-small(numero="5" titulo="Prueba y entrega") Fase donde se realizan las pruebas de lo desarrollado; sin embargo, si se reutilizan componentes, se supone que ya fueron probados en los procesos anteriores y solo falta probar la integración con los nuevos componentes.
+          p(numero="5" titulo="Prueba y entrega") Fase donde se realizan las pruebas de lo desarrollado; sin embargo, si se reutilizan componentes, se supone que ya fueron probados en los procesos anteriores y solo falta probar la integración con los nuevos componentes.
       .col-lg-5.mb-5
         img.img-a(src='@/assets/curso/temas/tema_1/img_21.png', alt='Texto que describa la imagen')
 

@@ -9,7 +9,7 @@
 
     p(data-aos="flip-down") Las metodologías de desarrollo de <em>software</em> ágiles tomaron mayor auge en el año 2001, pero se venían revisando y concretando desde los años noventa. En este nuevo siglo tuvo lugar una reunión de representantes de los modelos ágiles que dio origen a lo que hoy en día se conoce como el manifiesto ágil, donde se encuentra plasmado el espíritu de estas metodologías.
 
-    p.mb-5(data-aos="flip-down") Una parte del Manifiesto por el Desarrollo Ágil de Software, dice:
+    p.mb-5(data-aos="flip-down") Una parte del Manifiesto por el Desarrollo Ágil de <em>Software</em>, dice:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-5.mb-md-0(data-aos="zoom-in-right")
@@ -42,7 +42,7 @@
           .row.align-items-end
             .col
               .bloque-texto-e__autor 
-                .h5.mb-0 (Manifiesto agile, s.f.)
+                .h5.mb-0 (Beck, K., et al. 2001)
                 br
                 i.fas.fa-quote-right
         
@@ -56,7 +56,7 @@
 
     p.mb-4(data-aos="flip-down") Existe una gran variedad de metodologías ágiles, las cuales son evolutivas, iterativas y tienen tiempos fijos en sus iteraciones.
 
-    p.mb-5(data-aos="flip-down") A continuación conozca cada una de ellas:
+    p.mb-5(data-aos="flip-down") A continuación, conozca cada una de ellas:
 
     .row.mb-5(data-aos="flip-down")
       .col-lg-12
@@ -92,7 +92,7 @@
 
       .tarjeta.color-acento-contenido.p-4(x="18%" y="47%" numero="+")
         .h5.mb-2 #[i Scrum Master]
-        p.mb-0 Es el rol encargado de quitar todos los posibles obstáculos del proyecto y engranar todas las piezas para que funcionen bien; en otras palabras, es un facilitador, y junto con el Product Owner, se ocupa de definir la operatividad del  <em>software</em>.
+        p.mb-0 Es el rol encargado de quitar todos los posibles obstáculos del proyecto y engranar todas las piezas para que funcionen bien; en otras palabras, es un facilitador, y junto con el <em>Product Owner</em>, se ocupa de definir la operatividad del  <em>software</em>.
 
       .tarjeta.color-acento-contenido.p-4(x="24%" y="47%" numero="+")
         .h5.mb-2 #[i Project Manager]
@@ -100,7 +100,7 @@
 
       .tarjeta.color-acento-contenido.p-4(x="58%" y="28%" numero="+")
         .h5.mb-2 #[i Daily Scrum]
-        p.mb-0 Reunión diaria que se lleva a cabo entre el Scrum Master y el equipo, para revisar las tareas del día.
+        p.mb-0 Reunión diaria que se lleva a cabo entre el <em>Scrum Master</em> y el equipo, para revisar las tareas del día.
 
       .tarjeta.color-acento-contenido.p-4(x="10%" y="75%" numero="+")
         .h5.mb-2 #[i Sprint Backlog]
@@ -159,18 +159,18 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_4.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Kanban significa en japonés, tarjetas visuales; la palabra <i>kan</i> es visual y la palabra <i>ban</i> es tarjeta. Hace parte de las metodologías ágiles cuyo objetivo es gestionar, de forma óptima, cómo se van completando las tareas y qué recursos tienen. Es así como Kanban es una metodología que busca apoyar a los equipos para encontrar un balance entre las tareas pendientes por realizar y la disponibilidad de cada integrante; su filosofía es la mejora continua a través de la técnica de extracción, es decir, se tiene un repositorio o lista de tareas, de la cual se van tomando y se van anexando al flujo de trabajo, apoyados en los tableros Kanban.
+            p.mb-0 Kanban significa en japonés, tarjetas visuales; la palabra <i>kan</i> es visual y la palabra <i>ban</i> es tarjeta. Hace parte de las metodologías ágiles cuyo objetivo es gestionar, de forma óptima, cómo se van completando las tareas y qué recursos tienen. Es así como kanban es una metodología que busca apoyar a los equipos para encontrar un balance entre las tareas pendientes por realizar y la disponibilidad de cada integrante; su filosofía es la mejora continua a través de la técnica de extracción, es decir, se tiene un repositorio o lista de tareas, de la cual se van tomando y se van anexando al flujo de trabajo, apoyados en los tableros kanban.
 
     .titulo-sexto.color-acento-contenido(data-aos="flip-down")
       h5 Figura 5
       p.mb-0 
-       em Tablero Kanban
+       em Tablero kanban
 
     img.img-a(data-aos="flip-down")(src='@/assets/curso/temas/tema_2/img_5.png', alt='Texto que describa la imagen')
 
     .row.justify-content-center.p-5(data-aos="zoom-in-down")
       .col-lg-10.cont_bg-2.p-4
-        p.mb-0 La anterior gráfica es el tablero Kanban, el cual se utiliza para organizar el trabajo, cada tarjeta es una tarea y va avanzando en el tablero según su desarrollo.
+        p.mb-0 La anterior gráfica es el tablero kanban, el cual se utiliza para organizar el trabajo, cada tarjeta es una tarea y va avanzando en el tablero según su desarrollo.
 
     p.mb-5(data-aos="flip-down") Kanban tiene cuatro principios que son fundamentales para su implementación:
 
@@ -181,7 +181,7 @@
           
           p(numero="2" titulo="Comprométase a buscar e implementar cambios progresivos y evolutivos<br>") Los cambios muy grandes pueden impactar negativamente el equipo, por la demora, el esfuerzo y los posibles arreglos que toque realizar; por eso se deben hacer pequeños cambios e ir evolucionando.
 
-          p(numero="3" titulo="Respete los roles, los procesos y las responsabilidades actuales") Kanban no tiene roles integrados o definidos, puede integrarse y funcionar con la jerarquía de su equipo.
+          p(numero="3" titulo="Respete los roles, los procesos y las responsabilidades actuales") kanban no tiene roles integrados o definidos, puede integrarse y funcionar con la jerarquía de su equipo.
 
           p(numero="4" titulo="Impulse el liderazgo en todos los niveles") Se habla de un liderazgo horizontal, y no solo vertical, dentro del proyecto o equipo de trabajo.
 
@@ -232,7 +232,7 @@
         .tarjeta.tarj_bg-1
           .text-center.p-4
             h4.text-center Mejorar colaborando y crecer experimentando
-            p Indica que se pueden tener otras metodologías fomentando el trabajo junto con Kanban. Esta colaboración mejora los procesos.
+            p Indica que se pueden tener otras metodologías fomentando el trabajo junto con kanban. Esta colaboración mejora los procesos.
 
     p.mb-5(data-aos="flip-down") Los anteriores son los conceptos y la información fundamental para saber si el equipo necesita esta metodología y si puede empezar a implementarla.    
 
@@ -387,37 +387,37 @@
         TabsA.color-acento-botones.mb-5
           .tarjeta.tarj_bg-3.p-4(titulo="El juego de la <br>planificación")
             h5 El juego de la planificación
-            p.text-small Esta práctica es muy importante y requiere una participación activa del cliente en la planificación de los requerimientos junto con el equipo en busca de la cohesión entre el conocimiento del negocio y los requerimientos por parte del cliente, y el de costos y desarrollo del equipo.
+            p Esta práctica es muy importante y requiere una participación activa del cliente en la planificación de los requerimientos junto con el equipo en busca de la cohesión entre el conocimiento del negocio y los requerimientos por parte del cliente, y el de costos y desarrollo del equipo.
           .tarjeta.tarj_bg-3.p-4.tb(titulo="Pequeños <em>releases</em>")
             h5 Pequeños <em>releases</em>
-            p.text-small El equipo de desarrollo debe velar por entregar con frecuencia al cliente versiones de las iteraciones funcionales.
+            p El equipo de desarrollo debe velar por entregar con frecuencia al cliente versiones de las iteraciones funcionales.
           .tarjeta.tarj_bg-3.p-4.tb_1(titulo="Metáforas")
             h5 Metáforas
-            p.text-small Capacidad de explicar el sistema a personas nuevas con base en el concepto de metáforas con el fin de evitar el tiempo que gastarían leyendo la documentación.
+            p Capacidad de explicar el sistema a personas nuevas con base en el concepto de metáforas con el fin de evitar el tiempo que gastarían leyendo la documentación.
           .tarjeta.tarj_bg-3.p-4.tb_2(titulo="Diseño simple")
             h5 Diseño simple
-            p.text-small La idea es hacer solo lo que se solicita y mantener todo con simplicidad.
+            p La idea es hacer solo lo que se solicita y mantener todo con simplicidad.
           .tarjeta.tarj_bg-3.p-4.tb_3(titulo="Desarrollo guiado<br> por pruebas")
             h5 Desarrollo guiado por pruebas
-            p.text-small Es un enfoque evolutivo que permite el desarrollo de actividades con calidad. Para ello se crea primero la prueba con la cual se va a testear y después se hace la mejora.
+            p Es un enfoque evolutivo que permite el desarrollo de actividades con calidad. Para ello se crea primero la prueba con la cual se va a testear y después se hace la mejora.
           .tarjeta.tarj_bg-3.p-4.tb_4(titulo="Refactorización")
             h5 Refactorización
-            p.text-small Consiste en mejorar el código ya realizado sin alterar su comportamiento.
+            p Consiste en mejorar el código ya realizado sin alterar su comportamiento.
           .tarjeta.tarj_bg-3.p-4.tb_5(titulo="Programación <br>en parejas")
             h5 Programación en parejas
-            p.text-small Es una técnica de trabajo que reúne a un equipo de dos personas en un solo computador para que ambas trabajen resolviendo el mismo problema.
+            p Es una técnica de trabajo que reúne a un equipo de dos personas en un solo computador para que ambas trabajen resolviendo el mismo problema.
           .tarjeta.tarj_bg-3.p-4.tb_6(titulo="Propiedad <br>colectiva del código")
             h5 Propiedad colectiva del código
-            p.text-small Esta práctica indica que el código no se privatiza o ciertas partes no son de equis desarrollador; cualquier desarrollador del equipo puede desarrollar o mejorar cualquier funcionalidad.
+            p Esta práctica indica que el código no se privatiza o ciertas partes no son de equis desarrollador; cualquier desarrollador del equipo puede desarrollar o mejorar cualquier funcionalidad.
           .tarjeta.tarj_bg-3.p-4.tb_7(titulo="Integración continua")
             h5 Integración continua
-            p.text-small Indica que se requiere que todo se vaya integrando y probando de forma continua, sin esperar hasta el final para unir todas las partes.
+            p Indica que se requiere que todo se vaya integrando y probando de forma continua, sin esperar hasta el final para unir todas las partes.
           .tarjeta.tarj_bg-3.p-4.tb_8(titulo="Historias de usuario")
             h5 Historias de usuario
-            p.text-small Es un documento importante donde se describen las funcionalidades del proyecto.
+            p Es un documento importante donde se describen las funcionalidades del proyecto.
           .tarjeta.tarj_bg-3.p-4.tb_9(titulo="Estándares de <br>codificación")
             h5 Estándares de codificación
-            p.text-small Consiste en producir código con un estilo estandarizado para todo el proyecto y no que cada desarrollador lo haga a su estilo.
+            p Consiste en producir código con un estilo estandarizado para todo el proyecto y no que cada desarrollador lo haga a su estilo.
 
 
            
@@ -439,7 +439,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_18.png')})`}"
           )
           .bloque-texto-g__texto.txt-g.p-4.bloque-g-txt.cuadro_bloc
-            p El Proceso Unificado de Rational o <i>Rational Unified Process</i> (RUP), es una metodología que combina buenas prácticas de gestión de proyectos ágiles y tradicionales. La política de RUP se basa en desarrollar el proyecto en iteraciones que van evolucionando gradualmente. Cada iteración se compone de cuatro fases que forman su ciclo de vida y son guiadas por casos de estudio. El inicio se da con requerimientos genéricos y se avanza, hasta finalizar en los más especializados.
+            p El Proceso Unificado de Rational o <em>Rational Unified Process</em> (RUP), es una metodología que combina buenas prácticas de gestión de proyectos ágiles y tradicionales. La política de RUP se basa en desarrollar el proyecto en iteraciones que van evolucionando gradualmente. Cada iteración se compone de cuatro fases que forman su ciclo de vida y son guiadas por casos de estudio. El inicio se da con requerimientos genéricos y se avanza, hasta finalizar en los más especializados.
               br
               br
               | Existe otro método llamado AUP (proceso unificado ágil), el cual es una versión simplificada de RUP. Se basa en el desarrollo de aplicaciones empresariales y en él se usan técnicas ágiles llamadas TDD (desarrollo basado en pruebas), MDD (desarrollo basado en modelos) y gestión de <em>software</em>.
@@ -460,17 +460,17 @@
       .col-lg-8.mb-5.mb-md-0
         TabsA.color-acento-botones.mb-5
           .tarjeta.tarj_bg-3.p-4(titulo="<em>Launch</em>")
-            h5 Launch
-            p.text-small Es el inicio del proyecto donde se identifica el alcance, la arquitectura a alto nivel, se vinculan todos los interesados del proyecto y se elabora el presupuesto.
+            h5 <em>Launch</em>
+            p Es el inicio del proyecto donde se identifica el alcance, la arquitectura a alto nivel, se vinculan todos los interesados del proyecto y se elabora el presupuesto.
           .tarjeta.tarj_bg-3.p-4(titulo="<em>Design</em>")
-            h5 Design
-            p.text-small Se diseña todo el <em>software</em>, incluyendo la arquitectura detallada.
+            h5 <em>Design</em>
+            p Se diseña todo el <em>software</em>, incluyendo la arquitectura detallada.
           .tarjeta.tarj_bg-3.p-4(titulo="<em>Realization</em>")
-            h5 Realization
-            p.text-small Proceso de codificación del <em>software</em> que se hace de forma gradual con priorización de los requerimientos.
+            h5 <em>Realization</em>
+            p Proceso de codificación del <em>software</em> que se hace de forma gradual con priorización de los requerimientos.
           .tarjeta.tarj_bg-3.p-4(titulo="<em>Delivery</em>")
-            h5 Delivery
-            p.text-small Implementación y pruebas del <em>software</em>.
+            h5 <em>Delivery</em>
+            p Implementación y pruebas del <em>software</em>.
       .col-lg-4.mb-5.mb-md-0
         img.img-a(src='@/assets/curso/temas/tema_2/img_19.png', alt='Texto que describa la imagen')
 

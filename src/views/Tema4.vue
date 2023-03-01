@@ -25,7 +25,7 @@
 
       .col-lg-3
         img.img-a(src='@/assets/curso/temas/tema_4/img_1.png', alt='Texto que describa la imagen')
-    p.mb-5(data-aos="flip-down") El diseño del modelo entidad-relación, corresponde a la segunda fase de la creación de una base de datos, que se realiza una vez se ha recopilado toda la información por parte del cliente. Los elementos básicos de un modelo entidad-relación son: las entidades, las relaciones, los atributos y las cardinalidades, que pueden observarse en la siguiente gráfica, y que se explican seguidamente.
+    p.mb-5(data-aos="flip-down") El diseño del modelo entidad-relación, corresponde a la segunda fase de la creación de una base de datos, que se realiza una vez se ha recopilado toda la información por parte del cliente. Los elementos básicos de un modelo entidad-relación son: las entidades, las relaciones, los atributos y las cardinalidades, que pueden observarse en la Figura 6.
 
 
 
@@ -37,7 +37,7 @@
             em Elementos de un modelo de entidad / relación
           
         img.img-a(src='@/assets/curso/temas/tema_4/img_2.svg', alt='Texto que describa la imagen')
-
+    p.mb-5 A continuación, se detallan los elementos básicos de un modelo entidad - relación.  
     .row.mb-5(data-aos="flip-down")
       .col-lg-6.mb-5.mb-md-0
         img.img-a(src='@/assets/curso/temas/tema_4/img_3.png', alt='Texto que describa la imagen')
@@ -54,7 +54,7 @@
           div(titulo="Atributos")
             p Una entidad está representada por un grupo de atributos, los cuales son los encargados de describir una entidad específica. Como los atributos se encargan de describir cada una de las características o propiedades de la entidad, se representan por medio de una elipse o un círculo con su nombre correspondiente en el interior.
 
-            p <b>Por ejemplo,</b> la entidad vehículo se puede describir con los atributos marca, modelo, color, placa, número de pasajeros, etc. 
+            p Por ejemplo, la entidad vehículo se puede describir con los atributos marca, modelo, color, placa, número de pasajeros, etc. 
 
           div(titulo="Cardinalidad")
             p Esta cardinalidad dentro del modelo se representa en los extremos de cada relación. La cardinalidad expresa cuántas entidades de un extremo de la relación están relacionadas con cuántas entidades del otro extremo. Pueden ser “uno a uno”, “uno a varios” o “varios a varios”. 
@@ -112,7 +112,7 @@
               | Interfaces, con sus operaciones y constantes.
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Métodos
+              | Métodos.
             li
               i.fas.fa-play.m-2.tam_i.my-0
               | Información sobre los tipos de los atributos.
@@ -171,7 +171,7 @@
         img.img-a(src='@/assets/curso/temas/tema_4/img_7.png', alt='Texto que describa la imagen')
       .col-lg-6.mb-5.mb-md-0
         LineaTiempoD.color-acento-contenido.especial
-          p.text-small(numero="1" titulo="Atributo") Son valores que corresponden a un objeto; como color, material, cantidad, ubicación. Generalmente se conoce como la información detallada del objeto. Suponiendo que el objeto es una persona, sus propiedades serían: nombre, edad, sexo, etc. 
+          p(numero="1" titulo="Atributo") Son valores que corresponden a un objeto; como color, material, cantidad, ubicación. Generalmente se conoce como la información detallada del objeto. Suponiendo que el objeto es una persona, sus propiedades serían: nombre, edad, sexo, etc. 
 
             br
             br
@@ -218,7 +218,7 @@
             span.color_txt m…n -> 
             | El atributo puede tener entre m y n valores.
 
-          p.text-small(numero="2" titulo="Visibilidad") El encapsulamiento presenta las siguientes ventajas básicas:
+          p(numero="2" titulo="Visibilidad") El encapsulamiento presenta las siguientes ventajas básicas:
             br
             br
             ul.lista-ul--color
@@ -230,7 +230,7 @@
                 | Favorece la modularidad y el mantenimiento.
             | Los atributos de una clase no deberían ser manipulables directamente por el resto de los objetos.
 
-          p.text-small(numero="3" titulo="Niveles de encapsulamiento")
+          p(numero="3" titulo="Niveles de encapsulamiento")
             span.color_txt (-) Privado: 
             | es el más fuerte. Esta parte es totalmente invisible desde fuera de la clase.
             br
@@ -246,7 +246,7 @@
             span.color_txt (+) Los atributos / 
             | métodos públicos son visibles a otras clases.
             
-          p.text-small(numero="4" titulo="Método") Una operación (método) es la implementación de un servicio que puede ser requerido a cualquier objeto de la clase para que muestre un comportamiento. Es una abstracción de algo que se puede hacer a un objeto y que es compartido por todos los objetos de la clase.
+          p(numero="4" titulo="Método") Una operación (método) es la implementación de un servicio que puede ser requerido a cualquier objeto de la clase para que muestre un comportamiento. Es una abstracción de algo que se puede hacer a un objeto y que es compartido por todos los objetos de la clase.
             br
             br
             | Para cada operación debe especificarse:
@@ -371,7 +371,7 @@
             .p-0.h-100
               img.img-a(src='@/assets/curso/temas/tema_4/img_11.png', alt='Texto que describa la imagen')
           .col-lg-6.d-flex.d-none.d-lg-block
-            .bg_4.p-3.text-small
+            .bg_4.p-3
               .bg_5.p-3.mb-3.mgr_left-1
                 p.mb-0 Las API son componentes que permiten que dos <em>software</em> se comuniquen entre sí a través de un protocolo de comunicación; tiene diferentes definiciones y restricciones. Por ejemplo, un <em>software</em> puede crear una API para compartir la información de sus productos a otro servicio de <em>software</em> para su insumo y trabajo.
               p.p-2.mb-0 Su sigla significa interfaz de programación de aplicaciones. En este caso la palabra aplicación hace referencia a cualquier sistema y la interfaz sería el protocolo de comunicación entre dos servicios de dos sistemas.
