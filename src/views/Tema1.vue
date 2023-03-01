@@ -92,7 +92,7 @@
           figure
             img.img-a(src='@/assets/curso/temas/tema_1/img_9.png', alt='Texto que describa la imagen')
         .col-md-7
-          h3 Codificación.
+          h3 Codificación
           p En esta etapa se ejecuta el código de la aplicación, de acuerdo con lo estipulado en las fases anteriores, para cumplir todo lo pactado.
       
       .row
