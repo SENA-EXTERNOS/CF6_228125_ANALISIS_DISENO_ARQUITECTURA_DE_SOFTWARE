@@ -114,7 +114,7 @@
     left: 0 !important  
 
 .m-left
-  left: 50% !important
+  left: 53% !important
 
 .txt-g
   justify-content: flex-start !important
@@ -359,4 +359,43 @@
 
 .titulo-sexto.color-acento-contenido
   border-left-color: #FF6B00
+
+.banner-principal__info
+  margin-left: 56px !important
+
+.banner-principal__img 
+  margin-right: 69px !important
+
+.banner-interno
+  position: relative
+
+  &__fondo
+    position: absolute
+    top: 0
+    bottom: -150px !important
+    left: 0
+    right: 0
+    background-color: $color-banner-fondo
+    background-size: cover
+    background-position: center
+
+  &__titulo
+    display: flex
+    align-items: center
+    &__icono
+      display: block
+      width: 32px
+      height: 32px
+      border-radius: 50%
+      background-color: $color-banner-text
+      position: relative
+      i
+        color: $color-banner-fondo
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%,-50%)
+    h1, h2, h3, h4, h5, h6
+      color: $color-banner-text
+      line-height: 1.1em
 

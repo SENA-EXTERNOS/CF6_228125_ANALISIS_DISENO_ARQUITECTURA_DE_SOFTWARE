@@ -462,13 +462,13 @@
           .tarjeta.tarj_bg-3.p-4(titulo="<em>Launch</em>")
             h5 <em>Launch</em>
             p Es el inicio del proyecto donde se identifica el alcance, la arquitectura a alto nivel, se vinculan todos los interesados del proyecto y se elabora el presupuesto.
-          .tarjeta.tarj_bg-3.p-4(titulo="<em>Design</em>")
+          .tarjeta.tarj_bg-3.p-4.tb(titulo="<em>Design</em>")
             h5 <em>Design</em>
             p Se diseña todo el <em>software</em>, incluyendo la arquitectura detallada.
-          .tarjeta.tarj_bg-3.p-4(titulo="<em>Realization</em>")
+          .tarjeta.tarj_bg-3.p-4.tb_1(titulo="<em>Realization</em>")
             h5 <em>Realization</em>
             p Proceso de codificación del <em>software</em> que se hace de forma gradual con priorización de los requerimientos.
-          .tarjeta.tarj_bg-3.p-4(titulo="<em>Delivery</em>")
+          .tarjeta.tarj_bg-3.p-4.tb_2(titulo="<em>Delivery</em>")
             h5 <em>Delivery</em>
             p Implementación y pruebas del <em>software</em>.
       .col-lg-4.mb-5.mb-md-0
@@ -483,24 +483,24 @@
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_20-.svg')})`}")
               .tarjeta-flip__contenido.p-4.p-xl-3
-                h5 Menos costos
-                p.mb-0 Siempre se trata de mejorar la calidad del producto y que se haga solo lo que le aporte valor al cliente, con la finalidad de maximizar las ganancias.
+                h5.mb-4 Menos costos
+                p.mb-5 Siempre se trata de mejorar la calidad del producto y que se haga solo lo que le aporte valor al cliente, con la finalidad de maximizar las ganancias.
 
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_21.svg')})`}")
-              .tarjeta-flip__contenido.p-4.p-xl-3 
-                h5 Mejores interacciones con el cliente
-                p.mb-0 Se busca optimizar la interacción con el cliente, por este motivo la comunicación debe ser fluida y en ambas direcciones. Se deben tener unos tiempos eficientes de respuesta.
+              .tarjeta-flip__contenido.p-4.p-xl-4 
+                h5.mb-4 Mejores interacciones con el cliente
+                p.mb-5 Se busca optimizar la interacción con el cliente, por este motivo la comunicación debe ser fluida y en ambas direcciones. Se deben tener unos tiempos eficientes de respuesta.
 
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_22.svg')})`}")
               .tarjeta-flip__contenido.p-4.p-xl-3
-                h5 Mayor calidad
-                p.mb-0 Lean indica que se debe optimizar cada uno de los procesos y tareas prestando mucha atención en las especificaciones y sus detalles con el objetivo de reducir los defectos y retrasos. Con esto se optimizan los costos y se impacta en una mejoría en tiempos durante el proyecto. 
+                h5.mb-4 Mayor calidad
+                p.mb-4 Lean indica que se debe optimizar cada uno de los procesos y tareas prestando mucha atención en las especificaciones y sus detalles con el objetivo de reducir los defectos y retrasos. Con esto se optimizan los costos y se impacta en una mejoría en tiempos durante el proyecto. 
 
       .row.mb-5.justify-content-center
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
