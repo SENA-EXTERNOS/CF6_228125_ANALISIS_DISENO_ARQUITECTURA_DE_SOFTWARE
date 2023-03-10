@@ -150,7 +150,7 @@
         i.fas.fa-play.play_3.m-1
         span.text_span Kanban
 
-    p.mb-5(data-aos="flip-down") Esta metodología tiene sus orígenes en los procesos de producción ideados por Toyota, donde se empezó con el uso de tarjetas para tener clara la cantidad de material que necesitaban en cada proceso de la cadena de producción.
+    p.mb-5(data-aos="flip-down") Esta metodología tiene sus orígenes en los procesos de producción ideados por una reconocida empresa automotriz, donde se empezó con el uso de tarjetas para tener clara la cantidad de material que necesitaban en cada proceso de la cadena de producción.
 
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-11
@@ -159,18 +159,18 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_4.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Kanban significa en japonés, tarjetas visuales; la palabra <i>kan</i> es visual y la palabra <i>ban</i> es tarjeta. Hace parte de las metodologías ágiles cuyo objetivo es gestionar, de forma óptima, cómo se van completando las tareas y qué recursos tienen. Es así como kanban es una metodología que busca apoyar a los equipos para encontrar un balance entre las tareas pendientes por realizar y la disponibilidad de cada integrante; su filosofía es la mejora continua a través de la técnica de extracción, es decir, se tiene un repositorio o lista de tareas, de la cual se van tomando y se van anexando al flujo de trabajo, apoyados en los tableros kanban.
+            p.mb-0 Kanban significa en japonés, tarjetas visuales; la palabra <i>kan</i> es visual y la palabra <i>ban</i> es tarjeta. Hace parte de las metodologías ágiles cuyo objetivo es gestionar, de forma óptima, cómo se van completando las tareas y qué recursos tienen. Es así como Kanban es una metodología que busca apoyar a los equipos para encontrar un balance entre las tareas pendientes por realizar y la disponibilidad de cada integrante; su filosofía es la mejora continua a través de la técnica de extracción, es decir, se tiene un repositorio o lista de tareas, de la cual se van tomando y se van anexando al flujo de trabajo, apoyados en los tableros Kanban.
 
     .titulo-sexto.color-acento-contenido(data-aos="flip-down")
       h5 Figura 5
       p.mb-0 
-       em Tablero kanban
+       em Tablero Kanban
 
     img.img-a(data-aos="flip-down")(src='@/assets/curso/temas/tema_2/img_5.png', alt='Texto que describa la imagen')
 
     .row.justify-content-center.p-5(data-aos="zoom-in-down")
       .col-lg-10.cont_bg-2.p-4
-        p.mb-0 La anterior gráfica es el tablero kanban, el cual se utiliza para organizar el trabajo, cada tarjeta es una tarea y va avanzando en el tablero según su desarrollo.
+        p.mb-0 La anterior gráfica es el tablero Kanban, el cual se utiliza para organizar el trabajo, cada tarjeta es una tarea y va avanzando en el tablero según su desarrollo.
 
     p.mb-5(data-aos="flip-down") Kanban tiene cuatro principios que son fundamentales para su implementación:
 
@@ -181,7 +181,7 @@
           
           p(numero="2" titulo="Comprométase a buscar e implementar cambios progresivos y evolutivos<br>") Los cambios muy grandes pueden impactar negativamente el equipo, por la demora, el esfuerzo y los posibles arreglos que toque realizar; por eso se deben hacer pequeños cambios e ir evolucionando.
 
-          p(numero="3" titulo="Respete los roles, los procesos y las responsabilidades actuales") kanban no tiene roles integrados o definidos, puede integrarse y funcionar con la jerarquía de su equipo.
+          p(numero="3" titulo="Respete los roles, los procesos y las responsabilidades actuales") Kanban no tiene roles integrados o definidos, puede integrarse y funcionar con la jerarquía de su equipo.
 
           p(numero="4" titulo="Impulse el liderazgo en todos los niveles") Se habla de un liderazgo horizontal, y no solo vertical, dentro del proyecto o equipo de trabajo.
 
@@ -232,7 +232,7 @@
         .tarjeta.tarj_bg-1
           .text-center.p-4
             h4.text-center Mejorar colaborando y crecer experimentando
-            p Indica que se pueden tener otras metodologías fomentando el trabajo junto con kanban. Esta colaboración mejora los procesos.
+            p Indica que se pueden tener otras metodologías fomentando el trabajo junto con Kanban. Esta colaboración mejora los procesos.
 
     p.mb-5(data-aos="flip-down") Los anteriores son los conceptos y la información fundamental para saber si el equipo necesita esta metodología y si puede empezar a implementarla.    
 

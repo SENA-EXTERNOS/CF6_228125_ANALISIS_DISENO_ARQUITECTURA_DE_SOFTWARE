@@ -137,7 +137,7 @@
           i.fas.fa-play.play_3.m-1
           span.text_span Prototipado
 
-      p El prototipado es una metodología de desarrollo iterativa, en la cual se desarrolla una maqueta de la solución. Este prototipo se produce con el fin de mostrarle al cliente si se entendieron los requerimientos iniciales que se hicieron a alto nivel, y si van por buen camino, es decir, se hace el refinamiento con el cliente.
+      p El prototipado es una metodología de desarrollo iterativa, en la cual se desarrolla una maqueta de la solución. Este prototipo se produce con el fin de mostrarle al cliente si se atendieron correctamente los requerimientos iniciales y si el proceso en general va por buen camino, es decir, se hace el refinamiento con el cliente.
       p En este proceso, el cliente estará probando cada uno de los prototipos que desarrolle el equipo de proyecto y emitirá su juicio valorativo; dicho juicio determina si el prototipo es desechado o lo continúan para realizar mejoras.
 
 
@@ -176,7 +176,7 @@
       .col-lg-7
         .bloque-texto-b.color-acento-contenido
           .bloque-texto-b__texto.mb-2.p-2
-            p En este modelo el <em>software</em> se divide en mini proyectos, los cuales evolucionan de acuerdo con las fases que sigue el espiral, comenzando con la comunicación con el cliente para determinar los requisitos iniciales; luego se pasa a la planificación de esos requerimientos donde se incluye la estimación del costo en tiempo y recursos, continuando con el análisis de riesgo; luego empieza la ingeniería del proyecto donde se diseñan las posibles alternativas de prototipo, se presentan al cliente para su evaluación, se construye, se entrega y se hace la retroalimentación, siempre de la mano del cliente. Si es aceptado, o va por buen camino, se sigue evolucionando; de lo contrario, se descarta y se comienza nuevamente de cero.
+            p En este modelo, el <em>software</em> se divide en mini proyectos, los cuales evolucionan de acuerdo con las fases que sigue la espiral, comenzando con la comunicación con el cliente para determinar los requisitos iniciales; luego se pasa a la planificación de esos requerimientos donde se incluye la estimación del costo en tiempo y recursos, continuando con el análisis de riesgo; luego empieza la ingeniería del proyecto donde se diseñan las posibles alternativas de prototipo, se presentan al cliente para su evaluación, se construye, se entrega y se hace la retroalimentación, siempre de la mano del cliente. Si es aceptado, o va por buen camino, se sigue evolucionando; de lo contrario, se descarta y se comienza nuevamente de cero.
 
     p.mb-5 La siguiente imagen presenta una explicación gráfica de este proceso.
 
