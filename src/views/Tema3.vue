@@ -7,7 +7,7 @@
         span 3
       h1 Elementos del modelo objetos
 
-    .row.align-items-stretch.justify-content-center.d-flex(data-aos="flip-down")
+    .row.align-items-stretch.justify-content-center.d-flex
       .col-lg-8.d-flex
         .row
           .col-lg-12
@@ -20,12 +20,12 @@
 
     separador
 
-    #encabezados.titulo-segundo.color-acento-contenido(data-aos="flip-down")
+    #encabezados.titulo-segundo.color-acento-contenido
       h3 Objeto
 
-    p.mb-5(data-aos="flip-down") Primero se debe definir qué es un objeto. En diferentes libros hay definiciones de este concepto, pero se dirá lo siguiente:
+    p.mb-5 Primero se debe definir qué es un objeto. En diferentes libros hay definiciones de este concepto, pero se dirá lo siguiente:
 
-    .row(data-aos="flip-down")
+    .row
       .col-lg-6.mb-5.mb-md-0
         .cajon.color-acento-botones.p-4.mb-4
           p.mb-0 Un objeto es una entidad del mundo real según el contexto - problema que se esté trabajando. Tiene características (atributos) y comportamientos (métodos) específicos. 
@@ -38,9 +38,9 @@
     separador
 
     .bg_6.p-4
-      #encabezados.titulo-segundo.color-acento-contenido(data-aos="flip-down")
+      #encabezados.titulo-segundo.color-acento-contenido
         h3 Clase
-      .cajon-b.color-acento-botones.p-4.mb-0(data-aos="flip-down")
+      .cajon-b.color-acento-botones.p-4.mb-0
         p.mb-0 Después de tener clara la idea de un objeto se debe revisar qué es una clase en este paradigma. La clase es como una plantilla. Si se hace una analogía, es como el plano de una casa, de ese plano se pueden crear muchas casas. En este caso, se podrían crear muchos objetos con ese plano llamado clase.
       .bloque-texto-b.color-acento-contenido.mb-5.mt-0
         .bloque-texto-b__texto.mb-2.p-4
@@ -50,7 +50,7 @@
           p Más adelante se revisará cómo es una clase visualmente en los diagramas UML que se realizan en el diseño del <em>software</em>.
 
       .row.justify-content-center.mb-0
-        .col-lg-10(data-aos="flip-down")
+        .col-lg-10
           .tarjeta.color-primario.rec_bg-1.p-4.mb-5
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-1

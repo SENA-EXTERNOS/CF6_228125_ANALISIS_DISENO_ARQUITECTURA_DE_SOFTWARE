@@ -2226,7 +2226,7 @@ div
       .tarjeta.color-primario.text-center.p-3(data-aos="flip-up")
         h3.mb-0 flip-up
     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-      .tarjeta.color-secundario.text-center.p-3(data-aos="flip-down")
+      .tarjeta.color-secundario.text-center.p-3
         h3.mb-0 flip-down
     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
       .tarjeta.color-acento-contenido.text-center.p-3(data-aos="flip-left")

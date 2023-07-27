@@ -7,9 +7,9 @@
         span 2
       h1 Metodologías de desarrollo de <em>software</em> ágiles
 
-    p(data-aos="flip-down") Las metodologías de desarrollo de <em>software</em> ágiles tomaron mayor auge en el año 2001, pero se venían revisando y concretando desde los años noventa. En este nuevo siglo tuvo lugar una reunión de representantes de los modelos ágiles que dio origen a lo que hoy en día se conoce como el manifiesto ágil, donde se encuentra plasmado el espíritu de estas metodologías.
+    p Las metodologías de desarrollo de <em>software</em> ágiles tomaron mayor auge en el año 2001, pero se venían revisando y concretando desde los años noventa. En este nuevo siglo tuvo lugar una reunión de representantes de los modelos ágiles que dio origen a lo que hoy en día se conoce como el manifiesto ágil, donde se encuentra plasmado el espíritu de estas metodologías.
 
-    p.mb-5(data-aos="flip-down") Una parte del Manifiesto por el Desarrollo Ágil de <em>Software</em>, dice:
+    p.mb-5 Una parte del Manifiesto por el Desarrollo Ágil de <em>Software</em>, dice:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-5.mb-md-0(data-aos="zoom-in-right")
@@ -49,16 +49,16 @@
 
     .row.justify-content-center.mb-5
       .col-lg-11
-        .cajon.color-acento-botones.p-4.mb-4(data-aos="flip-down")
+        .cajon.color-acento-botones.p-4.mb-4
           p Como se pudo ver en el tema anterior, las metodologías tradicionales son estrictas y rígidas; las ágiles, en cambio, buscan la flexibilidad en el proceso, tratando de llegar a un equilibrio entre restricciones y el libre desarrollo.
           
           p.mb-0 Estas metodologías requieren comprensión y aceptación por parte del cliente y donde su papel cambia, se necesita una relación más estrecha. En este tipo de enfoques no existe el contrato permanente, es decir, no se fijan desde el inicio, costo, tiempo, recursos totales, ni alcance. El alcance debe variar de forma controlada para que, durante el proceso, el cliente defina sus requerimientos.
 
-    p.mb-4(data-aos="flip-down") Existe una gran variedad de metodologías ágiles, las cuales son evolutivas, iterativas y tienen tiempos fijos en sus iteraciones.
+    p.mb-4 Existe una gran variedad de metodologías ágiles, las cuales son evolutivas, iterativas y tienen tiempos fijos en sus iteraciones.
 
-    p.mb-5(data-aos="flip-down") A continuación, conozca cada una de ellas:
+    p.mb-5 A continuación, conozca cada una de ellas:
 
-    .row.mb-5(data-aos="flip-down")
+    .row.mb-5
       .col-lg-12
         .cont_bg-1.p-5
           .row.justify-content-center.align-items-center
@@ -77,7 +77,7 @@
             .col-lg-5.mb-5.mb-md-0
               img.img-a(src='@/assets/curso/temas/tema_2/img_2.png', alt='Texto que describa la imagen')
 
-    ImagenInfografica.color-secundario.mb-5.my-5(data-aos="flip-down")
+    ImagenInfografica.color-secundario.mb-5.my-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema_2/img_3.svg', alt='Texto que describa la imagen')
@@ -138,21 +138,21 @@
         .h5.mb-2 #[i Demo Meeting]
         p.mb-0 Reunión que se realiza al finalizar el <em>Sprint</em> con el objetivo de mostrarle al cliente la nueva funcionalidad.
 
-    .row.justify-content-center.mb-5.mt-5.my-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5.mt-5.my-5
       .col-lg-10
         .cajon.color-primario.p-4.mb-4.mt-5
           p.mb-0 La anterior imagen muestra todo lo que maneja la metodología SCRUM y si es la adecuada para la implementación en el proyecto.  
 
-    ul.mb-5(data-aos="flip-down")
+    ul.mb-5
       li
         i.fas.fa-play.play_1.m-1
         i.fas.fa-play.play_1.m-1
         i.fas.fa-play.play_3.m-1
         span.text_span Kanban
 
-    p.mb-5(data-aos="flip-down") Esta metodología tiene sus orígenes en los procesos de producción ideados por una reconocida empresa automotriz, donde se empezó con el uso de tarjetas para tener clara la cantidad de material que necesitaban en cada proceso de la cadena de producción.
+    p.mb-5 Esta metodología tiene sus orígenes en los procesos de producción ideados por una reconocida empresa automotriz, donde se empezó con el uso de tarjetas para tener clara la cantidad de material que necesitaban en cada proceso de la cadena de producción.
 
-    .row.justify-content-center.mb-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5
       .col-lg-11
         .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -161,20 +161,20 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Kanban significa en japonés, tarjetas visuales; la palabra <i>kan</i> es visual y la palabra <i>ban</i> es tarjeta. Hace parte de las metodologías ágiles cuyo objetivo es gestionar, de forma óptima, cómo se van completando las tareas y qué recursos tienen. Es así como Kanban es una metodología que busca apoyar a los equipos para encontrar un balance entre las tareas pendientes por realizar y la disponibilidad de cada integrante; su filosofía es la mejora continua a través de la técnica de extracción, es decir, se tiene un repositorio o lista de tareas, de la cual se van tomando y se van anexando al flujo de trabajo, apoyados en los tableros Kanban.
 
-    .titulo-sexto.color-acento-contenido(data-aos="flip-down")
+    .titulo-sexto.color-acento-contenido
       h5 Figura 5
       p.mb-0 
        em Tablero Kanban
 
-    img.img-a(data-aos="flip-down")(src='@/assets/curso/temas/tema_2/img_5.png', alt='Texto que describa la imagen')
+    img.img-a(src='@/assets/curso/temas/tema_2/img_5.png', alt='Texto que describa la imagen')
 
     .row.justify-content-center.p-5(data-aos="zoom-in-down")
       .col-lg-10.cont_bg-2.p-4
         p.mb-0 La anterior gráfica es el tablero Kanban, el cual se utiliza para organizar el trabajo, cada tarjeta es una tarea y va avanzando en el tablero según su desarrollo.
 
-    p.mb-5(data-aos="flip-down") Kanban tiene cuatro principios que son fundamentales para su implementación:
+    p.mb-5 Kanban tiene cuatro principios que son fundamentales para su implementación:
 
-    .row.justify-content-center.mb-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5
       .col-lg-7.mb-5.mb-md-0
         LineaTiempoD.color-acento-contenido.especial
           p(numero="1" titulo="Empiece con lo que hace ahora") Esta metodología puede ser implementada en cualquier proceso de trabajo porque es lo suficientemente flexible para adaptarse.
@@ -189,9 +189,9 @@
       .col-lg-5.mb-5
         img.img-a(src='@/assets/curso/temas/tema_2/img_6.png', alt='Texto que describa la imagen')
 
-    p.mb-5(data-aos="flip-down") Los principios dan una guía para el equipo al momento de comenzar el flujo de trabajo, pero se deben seguir las siguientes prácticas que usan grandes empresas para lograr una mejora continua y un crecimiento progresivo:
+    p.mb-5 Los principios dan una guía para el equipo al momento de comenzar el flujo de trabajo, pero se deben seguir las siguientes prácticas que usan grandes empresas para lograr una mejora continua y un crecimiento progresivo:
 
-    SlyderF.mb-5(columnas="col-lg-5 col-xl-4").align-items-stretch.d-flex.h-100(data-aos="flip-down")
+    SlyderF.mb-5(columnas="col-lg-5 col-xl-4").align-items-stretch.d-flex.h-100
       .tarjeta-avatar.d-flex
         img(src='@/assets/curso/temas/tema_2/img_7.png' alt='AvatarTop')
         .tarjeta.tarj_bg-1.d-flex
@@ -234,16 +234,16 @@
             h4.text-center Mejorar colaborando y crecer experimentando
             p Indica que se pueden tener otras metodologías fomentando el trabajo junto con Kanban. Esta colaboración mejora los procesos.
 
-    p.mb-5(data-aos="flip-down") Los anteriores son los conceptos y la información fundamental para saber si el equipo necesita esta metodología y si puede empezar a implementarla.    
+    p.mb-5 Los anteriores son los conceptos y la información fundamental para saber si el equipo necesita esta metodología y si puede empezar a implementarla.    
 
-    ul.mb-5(data-aos="flip-down")
+    ul.mb-5
       li
         i.fas.fa-play.play_1.m-1
         i.fas.fa-play.play_1.m-1
         i.fas.fa-play.play_3.m-1
         span.text_span Lean
 
-    .row.align-items-stretch.justify-content-center.d-flex.mb-5(data-aos="flip-down")
+    .row.align-items-stretch.justify-content-center.d-flex.mb-5
       .col-lg-8.d-flex
         .row.align-items-center.d-flex
           .col-lg-12
@@ -256,7 +256,7 @@
           img.img-a(src='@/assets/curso/temas/tema_2/img_8.png', alt='Texto que describa la imagen')
 
 
-    .row.mb-5(data-aos="flip-down")
+    .row.mb-5
       .col-lg-6.mb-5.mb-md-0
         img.img-a(src='@/assets/curso/temas/tema_2/img_9.png', alt='Texto que describa la imagen')
       .col-lg-6
@@ -266,20 +266,20 @@
 
         p Se debe respetar el equipo de trabajo sin importar su jerarquía; las ideas innovadoras siempre provienen de las personas que están directamente involucradas con el proceso de fabricación del producto. Este respeto fomenta un liderazgo horizontal y no vertical como las compañías comunes, y ese liderazgo Lean empodera a todos los empleados para la toma de decisiones, el aporte de nuevas ideas al proceso con el objetivo de ejecutar el trabajo siempre de la mejor forma y responder así ante cualquier situación.
 
-    ul.mb-5(data-aos="flip-down")
+    ul.mb-5
       li
         i.fas.fa-play.play_1.m-1
         i.fas.fa-play.play_1.m-1
         i.fas.fa-play.play_3.m-1
         span.text_span Programación Extrema XP
 
-    p.mb-3(data-aos="flip-down") Por sus siglas en ingles XP (#[i Extreme Programming]) fue desarrollada por Kent Beck y busca la disciplina extrema de las personas que conforman el equipo de desarrollo aplicando unas prácticas consideradas esenciales en el proceso. Se fundamenta en valores, principios y prácticas.
+    p.mb-3 Por sus siglas en ingles XP (#[i Extreme Programming]) fue desarrollada por Kent Beck y busca la disciplina extrema de las personas que conforman el equipo de desarrollo aplicando unas prácticas consideradas esenciales en el proceso. Se fundamenta en valores, principios y prácticas.
 
-    p.mb-5(data-aos="flip-down") Los valores incluyen los de todo el grupo que conforma el proyecto, en este caso se refiere a la forma como toman las decisiones frente a una situación específica; son cinco y se describen a continuación:
+    p.mb-5 Los valores incluyen los de todo el grupo que conforma el proyecto, en este caso se refiere a la forma como toman las decisiones frente a una situación específica; son cinco y se describen a continuación:
 
     
 
-    SlyderF.mb-5.d-flex.align-items-stretch.h-100(columnas="col-lg-5 col-xl-4 ")(data-aos="flip-down")
+    SlyderF.mb-5.d-flex.align-items-stretch.h-100(columnas="col-lg-5 col-xl-4 ")
       .tarjeta-avatar.d-flex
         img(src='@/assets/curso/temas/tema_2/img_10.png' alt='AvatarTop')
         .tarjeta.tarj_bg-2.d-flex
@@ -315,13 +315,13 @@
             h4.text-center Respeto
             p.mb-0 Para tener un grupo compenetrado la base de todo es el respeto entre las personas y sus interacciones.
 
-    .cajon-b.color-acento-botones.p-3.mb-5(data-aos="flip-down")
+    .cajon-b.color-acento-botones.p-3.mb-5
       p.mb-0 Los valores que se acabaron de revisar no indican cómo se deben llevar a cabo las tareas del proyecto, son las prácticas las que muestran cómo se deben ejecutar en detalle. Pero como hay un espacio muy grande entre los valores y las prácticas, XP dispuso de unos principios que permiten la generación de prácticas concretas a partir de los valores.
       
 
-    .row.justify-content-center.mb-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5
       .col-lg-7.mb-5.mb-md-0
-        p.mb-5 En XP existen 15 principios que se describirán brevemente a continuación:
+        p.mb-5 En XP existen 14 principios que se describirán brevemente a continuación:
 
         ul.lista-ul--color
           li
@@ -348,7 +348,7 @@
       .col-lg-5
         img.img-a(src='@/assets/curso/temas/tema_2/img_15.png', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.mb-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5
       .col-lg-5.mb-5.mb-md-0
         img.img-a(src='@/assets/curso/temas/tema_2/img_16.png', alt='Texto que describa la imagen')
       .col-lg-7.mb-5.mb-md-0
@@ -377,12 +377,12 @@
                 i.fas.fa-play.m-2.tam_i.my-0
                 span #[b Redundancia:] tomar los problemas, buscar las diferentes soluciones y probar varias al tiempo.
 
-    .cajon.color-primario.p-4.mb-5(data-aos="flip-down")
+    .cajon.color-primario.p-4.mb-5
       p.mb-0 XP, aparte de ofrecer valores y principios, tiene prácticas que proponen una mejor organización, planificación, comunicación y permiten generar una cultura de excelencia.
 
-    p.mb-5(data-aos="flip-down") Las prácticas más relevantes son:
+    p.mb-5 Las prácticas más relevantes son:
 
-    .row.mb-5(data-aos="flip-down")
+    .row.mb-5
       .col-lg-8.mb-5.mb-md-0
         TabsA.color-acento-botones.mb-5
           .tarjeta.tarj_bg-3.p-4(titulo="El juego de la <br>planificación")
@@ -425,14 +425,14 @@
         img.img-a(src='@/assets/curso/temas/tema_2/img_17.png', alt='Texto que describa la imagen')
 
 
-    ul.mb-5(data-aos="flip-down")
+    ul.mb-5
       li
         i.fas.fa-play.play_1.m-1
         i.fas.fa-play.play_1.m-1
         i.fas.fa-play.play_3.m-1
         span.text_span RUP
 
-    .row.justify-content-center.mb-5.d-none.d-lg-block(data-aos="flip-down")
+    .row.justify-content-center.mb-5.d-none.d-lg-block
       .col-lg-12
         .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.m-left.p-4(
@@ -444,7 +444,7 @@
               br
               | Existe otro método llamado AUP (proceso unificado ágil), el cual es una versión simplificada de RUP. Se basa en el desarrollo de aplicaciones empresariales y en él se usan técnicas ágiles llamadas TDD (desarrollo basado en pruebas), MDD (desarrollo basado en modelos) y gestión de <em>software</em>.
 
-    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.d-block.d-lg-none.mb-5(data-aos="flip-down")
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.d-block.d-lg-none.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_18.png')})`}"
       )
@@ -454,9 +454,9 @@
         br
         | Existe otro método llamado AUP (proceso unificado ágil), el cual es una versión simplificada de RUP. Se basa en el desarrollo de aplicaciones empresariales y en él se usan técnicas ágiles llamadas TDD (desarrollo basado en pruebas), MDD (desarrollo basado en modelos) y gestión de <em>software</em>.
 
-    p.mb-5(data-aos="flip-down") Las cuatro fases en las que se divide esta metodología son:
+    p.mb-5 Las cuatro fases en las que se divide esta metodología son:
 
-    .row.mb-5(data-aos="flip-down")
+    .row.mb-5
       .col-lg-8.mb-5.mb-md-0
         TabsA.color-acento-botones.mb-5
           .tarjeta.tarj_bg-3.p-4(titulo="<em>Launch</em>")
@@ -476,7 +476,7 @@
 
     p.mb-5 Las metodologías ágiles tienen las siguientes características en común:
     .bg_2.p-5.mb-5
-      .row.mb-5(data-aos="flip-down")
+      .row.mb-5
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -520,7 +520,7 @@
                 h5 Mayor moral de los empleados
                 p Esto se da gracias al liderazgo horizontal, donde los jefes toman en cuenta las opiniones de los trabajadores y sus ideas se valoran, se revisan, se analizan y, de ser necesario, se implementan.
 
-    .bg_6.p-5(data-aos="flip-down")
+    .bg_6.p-5
       .row
         .col-lg-8.mb-5.mb-md-0
           .cajon-b.color-acento-botones.p-2

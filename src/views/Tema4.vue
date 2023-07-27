@@ -8,16 +8,16 @@
       h1 Elementos de la estructura arquitectónica
 
     .row.justify-content-center
-      .col-lg-10(data-aos="flip-down")
+      .col-lg-10
         .cajon.color-acento-botones.p-4
           p.mb-0 Los elementos de la estructura arquitectónica son los elementos de diseño del proceso de desarrollo de <em>software</em>. Para empezar se debe indicar que un artefacto es un producto que resulta del mismo proceso de desarrollo y puede ser un documento, un modelo o un elemento en particular.
 
     separador
     
-    #encabezados.titulo-segundo.color-acento-contenido(data-aos="flip-down")
+    #encabezados.titulo-segundo.color-acento-contenido
       h2 Diagrama de base de datos
 
-    .row.mb-5(data-aos="flip-down")
+    .row.mb-5
       .col-lg-8.mb-5.mb-md-0
         p El diagrama de base de datos se refiere al modelo entidad relación, también llamado modelo conceptual de datos. Fue desarrollado por Peter Chen en 1976 y consiste en una práctica dinámica que se caracteriza por una representación gráfica que incorpora información relativa a los datos y sus respectivas relaciones, usado como una vista general de los datos a implementar y la estructura en la organización.
 
@@ -25,20 +25,20 @@
 
       .col-lg-3
         img.img-a(src='@/assets/curso/temas/tema_4/img_1.png', alt='Texto que describa la imagen')
-    p.mb-5(data-aos="flip-down") El diseño del modelo entidad-relación, corresponde a la segunda fase de la creación de una base de datos, que se realiza una vez se ha recopilado toda la información por parte del cliente. Los elementos básicos de un modelo entidad-relación son: las entidades, las relaciones, los atributos y las cardinalidades, que pueden observarse en la Figura 6.
+    p.mb-5 El diseño del modelo entidad-relación, corresponde a la segunda fase de la creación de una base de datos, que se realiza una vez se ha recopilado toda la información por parte del cliente. Los elementos básicos de un modelo entidad-relación son: las entidades, las relaciones, los atributos y las cardinalidades, que pueden observarse en la Figura 6.
 
 
 
-    .row.justify-content-center.mb-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5
       .col-lg-10
-        .titulo-sexto.mb-5.color-acento-contenido(data-aos="flip-down")
+        .titulo-sexto.mb-5.color-acento-contenido
           h5 Figura 6
           p.mb-0 
             em Elementos de un modelo de entidad / relación
           
         img.img-a(src='@/assets/curso/temas/tema_4/img_2.svg', alt='Texto que describa la imagen')
     p.mb-5 A continuación, se detallan los elementos básicos de un modelo entidad - relación.  
-    .row.mb-5(data-aos="flip-down")
+    .row.mb-5
       .col-lg-6.mb-5.mb-md-0
         img.img-a(src='@/assets/curso/temas/tema_4/img_3.png', alt='Texto que describa la imagen')
       .col-lg-6.mb-5.mb-md-0
@@ -73,10 +73,10 @@
     separador
 
     .bg_6.p-5
-      #encabezados.titulo-segundo.color-acento-contenido(data-aos="flip-down")
+      #encabezados.titulo-segundo.color-acento-contenido
         h3 Diagrama de clases
 
-      .row.mb-5(data-aos="flip-down")
+      .row.mb-5
         .col-lg-8.mb-5.mb-md-0
           p Antes de iniciar a hablar sobre el diagrama de clases ―que muestra la estructura estática del sistema, sus clases y sus relaciones― se debe revisar qué es una clase y cómo se ve. 
 
@@ -87,12 +87,12 @@
         .col-lg-4.mb-5.mb-md-0
           img.img-a(src='@/assets/curso/temas/tema_4/img_4.png', alt='Texto que describa la imagen')
 
-      .titulo-sexto.color-acento-contenido(data-aos="flip-down")
+      .titulo-sexto.color-acento-contenido
         h5 Figura 7
         p.mb-0
           i Modelo de una clase
 
-      .row.justify-content-center.mb-5(data-aos="flip-down")
+      .row.justify-content-center.mb-5
         .col-lg-5.mb-5.mb-md-0
           img.img-a(src='@/assets/curso/temas/tema_4/img_5.svg', alt='Texto que describa la imagen')
         .col-lg-7.mb-5.mb-md-0
@@ -123,7 +123,7 @@
               i.fas.fa-play.m-2.tam_i.my-0
               | Dependencias.
 
-      .row.justify-content-center.mb-5(data-aos="flip-down")
+      .row.justify-content-center.mb-5
         .col-lg-7.mb-5.mb-md-0
           p Para elaborar un diagrama de clases orientado al diseño se debe tener en cuenta lo siguiente:
 
@@ -161,15 +161,15 @@
 
     separador
 
-    #encabezados.titulo-segundo.color-acento-contenido(data-aos="flip-down")
+    #encabezados.titulo-segundo.color-acento-contenido
       h3 Diagrama de clases
 
-    p.mb-5(data-aos="flip-down") Los datos que componen la clase son:
+    p.mb-5 Los datos que componen la clase son:
 
-    .row.mb-5(data-aos="flip-down")
-      .col-lg-6.mb-5.mb-md-0
+    .row.mb-5
+      .col-lg-4.mb-5.mb-md-0
         img.img-a(src='@/assets/curso/temas/tema_4/img_7.png', alt='Texto que describa la imagen')
-      .col-lg-6.mb-5.mb-md-0
+      .col-lg-8.mb-5.mb-md-0
         LineaTiempoD.color-acento-contenido.especial
           p(numero="1" titulo="Atributo") Son valores que corresponden a un objeto; como color, material, cantidad, ubicación. Generalmente se conoce como la información detallada del objeto. Suponiendo que el objeto es una persona, sus propiedades serían: nombre, edad, sexo, etc. 
 
@@ -265,12 +265,12 @@
 
     separador
 
-    #encabezados.titulo-segundo.color-acento-contenido(data-aos="flip-down")
+    #encabezados.titulo-segundo.color-acento-contenido
       h3 Diagrama de casos de uso
 
-    p.mb-5(data-aos="flip-down") El diagrama de casos de uso se utiliza para modelar todas las funcionalidades del sistema. Se basa en casos de uso y utiliza tres elementos básicos:
+    p.mb-5 El diagrama de casos de uso se utiliza para modelar todas las funcionalidades del sistema. Se basa en casos de uso y utiliza tres elementos básicos:
 
-    .row.mb-5(data-aos="flip-down")
+    .row.mb-5
       .col-lg-6.mb-5.mb-md-0
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul acor_1")
           div(titulo="Actores")
@@ -283,14 +283,14 @@
         img.img-a(src='@/assets/curso/temas/tema_4/img_8-.svg', alt='Texto que describa la imagen')
 
     .bg_6.p-5
-      ul.mb-5(data-aos="flip-down")
+      ul.mb-5
         li
           i.fas.fa-play.play_1.m-1
           i.fas.fa-play.play_1.m-1
           i.fas.fa-play.play_3.m-1
           span.text_span Caso de uso
 
-      .row.mb-5(data-aos="flip-down")
+      .row.mb-5
         .col-lg-8.mb-5.mb-md-0
           p Un caso de uso es una secuencia de acciones que ejecuta un actor que dan un resultado de valor y observable ―incluyendo sus variantes―y que el sistema puede realizar.
 
@@ -318,14 +318,14 @@
         .col-lg-4.mb-5.mb-md-0
           img.img-a(src='@/assets/curso/temas/tema_4/img_9.png', alt='Texto que describa la imagen')
 
-      ul.mb-5(data-aos="flip-down")
+      ul.mb-5
         li
           i.fas.fa-play.play_1.m-1
           i.fas.fa-play.play_1.m-1
           i.fas.fa-play.play_3.m-1
           span.text_span Actores
 
-      .row.mb-5(data-aos="flip-down")
+      .row.mb-5
         .col-lg-9
           p Especifica un conjunto de roles que los usuarios de los casos de uso representan al interactuar con estos.
           p Un actor puede ser el rol que desempeña una persona o un sistema externo que interactúa con nuestro <em>software</em>.
@@ -333,38 +333,38 @@
 
           p Para complementar el tema se le invita a ver el siguiente video.
 
-      figure(data-aos="flip-down")
+      figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/yQSmLldIpNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     separador
 
-    #encabezados.titulo-segundo.color-acento-contenido(data-aos="flip-down")
+    #encabezados.titulo-segundo.color-acento-contenido
       h3 Diagrama de componentes
 
-    p(data-aos="flip-down") El diagrama de componentes modela los artefactos físicos o lógicos del sistema, en UML representa los módulos.
+    p El diagrama de componentes modela los artefactos físicos o lógicos del sistema, en UML representa los módulos.
 
-    p(data-aos="flip-down") Los componentes encapsulan clases del sistema y por eso se les conoce como subclases, tienen estructura compuesta y define los mismos contenidos de la clase.
+    p Los componentes encapsulan clases del sistema y por eso se les conoce como subclases, tienen estructura compuesta y define los mismos contenidos de la clase.
 
-    p.mb-5(data-aos="flip-down") La siguiente imagen presenta un ejemplo de un diagrama de componentes de correo electrónico.
+    p.mb-5 La siguiente imagen presenta un ejemplo de un diagrama de componentes de correo electrónico.
 
-    .row.justify-content-center.mb-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Figura 8
           p.mb-0
             em Ejemplo diagrama de componentes de correo electrónico
 
-    img.img-a.mb-3(data-aos="flip-down")(src='@/assets/curso/temas/tema_4/img_10.svg', alt='Texto que describa la imagen')
+    img.img-a.mb-3(src='@/assets/curso/temas/tema_4/img_10.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.mb-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5
       .col-lg-8
         figcaption 
           | Nota. Tomado y adaptado de IONOS (2020).
 
     h4 API
-    .row.mb-5.justify-content-center.align-items-stretch.d-flex(data-aos="flip-down")
+    .row.mb-5.justify-content-center.align-items-stretch.d-flex
       .col-lg-10.h-100.d-none.d-lg-block
         .row.align-items-stretch.justify-content-center.d-flex.mb-0.h-100
           .col-lg-6.d-flex.d-none.d-lg-block.h-100
@@ -377,7 +377,7 @@
               p.p-2.mb-0 Su sigla significa interfaz de programación de aplicaciones. En este caso la palabra aplicación hace referencia a cualquier sistema y la interfaz sería el protocolo de comunicación entre dos servicios de dos sistemas.
 
     
-    .row.justify-content-center.d-block.d-lg-none.mb-5(data-aos="flip-down")
+    .row.justify-content-center.d-block.d-lg-none.mb-5
       .col-lg-12
         img.img-a.my-0(src='@/assets/curso/temas/tema_4/img_11.png', alt='Texto que describa la imagen')
         .row.mt-0
@@ -387,7 +387,7 @@
                 p.mb-0 Las API son componentes que permiten que dos <em>software</em> se comuniquen entre sí a través de un protocolo de comunicación; tiene diferentes definiciones y restricciones. Por ejemplo, un <em>software</em> puede crear una API para compartir la información de sus productos a otro servicio de <em>software</em> para su insumo y trabajo.
               p.p-2.mb-0 Su sigla significa interfaz de programación de aplicaciones. En este caso la palabra aplicación hace referencia a cualquier sistema y la interfaz sería el protocolo de comunicación entre dos servicios de dos sistemas.
 
-    .row.justify-content-center.mb-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5
       .col-lg-7.mb-5.mb-md-0
         p La arquitectura de una API normalmente es cliente – servidor. La solicitud es enviada por el cliente hacia la API que se encuentra en el servidor y puede funcionar de cuatro formas diferentes:
 
@@ -411,7 +411,7 @@
       .col-lg-5.mb-5.mb-md-0
         img.img-a(src='@/assets/curso/temas/tema_4/img_12.png', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.mb-5(data-aos="flip-down")
+    .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-acento-botones.p-4
           p Los diagramas UML se caracterizan porque permiten una comunicación fluida con el cliente, comunican visualmente las ideas y, sobre todo, son precisos y eliminan la ambigüedad.
