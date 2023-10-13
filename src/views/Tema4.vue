@@ -130,31 +130,31 @@
           ul.lista-ul--color.lista-ul--separador
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Identifique todas las clases que participan en la solución del #[.mar #[i software.]]
+              span.mb-0 Identifique todas las clases que participan en la solución del #[em software.]
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Dibújelas en un diagrama de clases.
+              span.mb-0 Dibújelas en un diagrama de clases.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Identifique los atributos provenientes de los conceptos asociados del modelo conceptual.
+              span.mb-0 Identifique los atributos provenientes de los conceptos asociados del modelo conceptual.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Agregue los nombres de los métodos.
+              span.mb-0 Agregue los nombres de los métodos.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Incorpore la información sobre los tipos a los atributos y los métodos.
+              span.mb-0 Incorpore la información sobre los tipos a los atributos y los métodos.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Agregue las asociaciones necesarias para dar soporte a la visibilidad requerida de los atributos.
+              span.mb-0 Agregue las asociaciones necesarias para dar soporte a la visibilidad requerida de los atributos.
 
             li
               i.fas.fa-play.m-2.tam_i.my-0
-              | Agregue flechas de navegabilidad a las asociaciones para indicar la dirección de la visibilidad de los atributos.
+              span.mb-0 Agregue flechas de navegabilidad a las asociaciones para indicar la dirección de la visibilidad de los atributos.
 
         .col-lg-5.mb-5.mb-md-0
           img.img-a(src='@/assets/curso/temas/tema_4/img_6.png', alt='Texto que describa la imagen')

@@ -249,7 +249,7 @@
       .col-lg-7
         p Esta metodología, llamada así por sus siglas (RDA – Desarrollo Rápido de Aplicaciones) y también RAD por su origen en inglés (#[i Rapid Application Development]), consiste en tener un desarrollo de <em>software</em> lineal secuencial como se estudió en el modelo en cascada, pero llevándolo a un proceso en paralelo con distintos equipos de trabajo.
 
-        p Estos equipos serán responsables ―cada uno― de una parte de los requerimientos del proyecto. El objetivo de esta metodología es tener en un periodo corto el producto final completo.
+        p Estos equipos serán responsables cada uno de una parte de los requerimientos del proyecto. El objetivo de esta metodología es tener en un periodo corto el producto final completo.
 
         p Este modelo se caracteriza por sus equipos formados por más o menos seis personas, dentro de las cuales se incluyen desarrolladores y usuarios del sistema de tiempo completo, así como las demás personas involucradas, de acuerdo con los requisitos.
 
@@ -259,7 +259,7 @@
       .col-lg-7.mb-5.mb-md-0
         h4.mb-5 El esquema de fases o etapas para esta metodología es el siguiente:
         LineaTiempoD.color-acento-contenido.especial
-          p(numero="1" titulo="Modelado de gestión") En esta etapa, se modela la información que gestiona el negocio, la información que el propio negocio genera y el responsable de esta, adónde se lleva, y el responsable de su procesamiento.
+          p(numero="1" titulo="Modelado de gestión") En esta etapa, se modela la información que gestiona el negocio, la información que el propio negocio genera y el responsable de esta, dónde se lleva, y el responsable de su procesamiento.
           
           p(numero="2" titulo="Modelado de datos") En este proceso de modelado se deben tener presente los objetos de datos que el <em>software</em> va a manejar, cuáles son los atributos de esos datos, cómo se componen y se relacionan entre sí y cuáles procesos de negocio impactan. Lo que se busca como objetivo final es modelar una abstracción muy clara del dominio total de los datos relevantes al problema o producto en cuestión.
           
