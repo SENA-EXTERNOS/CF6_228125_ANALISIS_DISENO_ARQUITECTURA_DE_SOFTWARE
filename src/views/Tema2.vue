@@ -388,7 +388,7 @@
           .tarjeta.tarj_bg-3.p-4(titulo="El juego de la <br>planificación")
             h5 El juego de la planificación
             p Esta práctica es muy importante y requiere una participación activa del cliente en la planificación de los requerimientos junto con el equipo en busca de la cohesión entre el conocimiento del negocio y los requerimientos por parte del cliente, y el de costos y desarrollo del equipo.
-          .tarjeta.tarj_bg-3.p-4.tb(titulo="Pequeños <em>releases</em>")
+          .tarjeta.tarj_bg-3.p-4.tb(titulo="Pequeños <br><em>releases</em>")
             h5 Pequeños <em>releases</em>
             p El equipo de desarrollo debe velar por entregar con frecuencia al cliente versiones de las iteraciones funcionales.
           .tarjeta.tarj_bg-3.p-4.tb_1(titulo="Metáforas")
@@ -406,13 +406,13 @@
           .tarjeta.tarj_bg-3.p-4.tb_5(titulo="Programación <br>en parejas")
             h5 Programación en parejas
             p Es una técnica de trabajo que reúne a un equipo de dos personas en un solo computador para que ambas trabajen resolviendo el mismo problema.
-          .tarjeta.tarj_bg-3.p-4.tb_6(titulo="Propiedad <br>colectiva del código")
+          .tarjeta.tarj_bg-3.p-4.tb_6(titulo="Propiedad <br>colectiva <br>del código")
             h5 Propiedad colectiva del código
             p Esta práctica indica que el código no se privatiza o ciertas partes no son de equis desarrollador; cualquier desarrollador del equipo puede desarrollar o mejorar cualquier funcionalidad.
-          .tarjeta.tarj_bg-3.p-4.tb_7(titulo="Integración continua")
+          .tarjeta.tarj_bg-3.p-4.tb_7(titulo="Integración<br> continua")
             h5 Integración continua
             p Indica que se requiere que todo se vaya integrando y probando de forma continua, sin esperar hasta el final para unir todas las partes.
-          .tarjeta.tarj_bg-3.p-4.tb_8(titulo="Historias de usuario")
+          .tarjeta.tarj_bg-3.p-4.tb_8(titulo="Historias de<br> usuario")
             h5 Historias de usuario
             p Es un documento importante donde se describen las funcionalidades del proyecto.
           .tarjeta.tarj_bg-3.p-4.tb_9(titulo="Estándares de <br>codificación")
